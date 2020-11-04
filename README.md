@@ -17,7 +17,7 @@ Alt+S : Stop and Restart
 Note: Board size have to be full screen (Look image if you have error. Try it first if still have error, report me.)
 
 # Image
-![Image](https://github.com/nguyencongminh090/Program/blob/master/Board.png)
+![Image](https://github.com/nguyencongminh090/Gomobot/blob/master/Board.png)
 
 
 
