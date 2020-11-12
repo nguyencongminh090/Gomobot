@@ -7,10 +7,11 @@ Thanks for using my program.
 - Pynput
 - Pyautogui
 - Keyboard
+- Pywin32
 # How to use:
-Alt+W : Computer play as white
+Ctrl + X: initializes the opening.
 
-Alt+B : Computer play as black
+Choose the color of stone (black/white)
 
 Alt+S : Stop and Restart
 
