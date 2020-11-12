@@ -1,0 +1,72 @@
+Compiled on Apr 23 2020 at 02:42:48
+Launched in Engine\
+Answered : MESSAGE Detected following devices : CPU : GenuineIntel : 4 x AVX with 4043MB of memory
+Answered : MESSAGE Using : CPU : GenuineIntel : 4 x AVX with 4043MB of memory
+Got : START 15
+Answered : OK
+Got : INFO max_memory 2146435072
+Got : INFO timeout_match 60000
+Got : INFO timeout_turn 60000
+Got : INFO game_type 0
+Got : INFO rule 1
+Got : INFO time_left 60000
+Got : BOARD
+Got : 4,5,2
+Got : 5,6,1
+Got : 8,9,2
+Got : DONE
+Overall 222 children
+sum of visits = 0
+BEST
+CIRCLE (4, 4) Q=0% : H=0.227 : Visit=0 : 0
+CIRCLE (5, 6) Q=0% : H=0.125 : Visit=0 : 0
+CIRCLE (6, 6) Q=0% : H=0.119 : Visit=0 : 0
+CIRCLE (7, 4) Q=0% : H=0.108 : Visit=0 : 0
+CIRCLE (7, 5) Q=0% : H=0.088 : Visit=0 : 0
+CIRCLE (4, 6) Q=0% : H=0.081 : Visit=0 : 0
+CIRCLE (6, 4) Q=0% : H=0.059 : Visit=0 : 0
+CIRCLE (4, 5) Q=0% : H=0.04 : Visit=0 : 0
+CIRCLE (5, 5) Q=0% : H=0.038 : Visit=0 : 0
+CIRCLE (6, 3) Q=0% : H=0.038 : Visit=0 : 0
+WORST
+CIRCLE (9, 13) Q=0% : H=0 : Visit=0 : 0
+CIRCLE (10, 13) Q=0% : H=0 : Visit=0 : 0
+CIRCLE (12, 9) Q=0% : H=0 : Visit=0 : 0
+CIRCLE (6, 1) Q=0% : H=0 : Visit=0 : 0
+CIRCLE (12, 8) Q=0% : H=0 : Visit=0 : 0
+CIRCLE (6, 9) Q=0% : H=0 : Visit=0 : 0
+CIRCLE (2, 5) Q=0% : H=0 : Visit=0 : 0
+CIRCLE (2, 6) Q=0% : H=0 : Visit=0 : 0
+CIRCLE (11, 10) Q=0% : H=0 : Visit=0 : 0
+CIRCLE (11, 9) Q=0% : H=0 : Visit=0 : 0
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _  227  40  81  _   _   _   _   _   _   _   _ 
+  _   _   _   27  X   38 125  14  _   _   _   _   _   _   _ 
+  _   _   _   38  59  O  119   3  _   _   _   _   _   _   _ 
+  _   _   _   15 108  88  _   _   _   _   _   _   _   _   _ 
+  _   _   _   _    3   6  _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   X   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+
+nodes used 0k / 39M (0%)
+memory = 1193.87 MB
+0 : CROSS  (-1, -1) Q=48.8% : H=1 : Visit=1 : 222
+1 : CIRCLE (4, 4) Q=0% : H=0.227 : Visit=0 : 0
+Total 1 move ahead
+----NNCACHE-INFO----
+memory = 0.0180206 MB / 795.912MB
+stored = 16 elements
+calls  = 16
+hits   = 0 (0%)
+--------------------
+Answered : MESSAGE depth 1-1 ev 51.1 n 16 n/s 16001 tm 0 pv Oe4
+Answered : 4,4
+Got : INFO time_left 59904
+Got : TURN 8,9

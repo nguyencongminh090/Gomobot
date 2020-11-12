@@ -1,0 +1,17 @@
+Compiled on Apr 23 2020 at 02:42:48
+Launched in Engine\
+Answered : MESSAGE Detected following devices : CPU : GenuineIntel : 4 x AVX with 4043MB of memory
+Answered : MESSAGE Using : CPU : GenuineIntel : 4 x AVX with 4043MB of memory
+Got : START 15
+Answered : OK
+Got : INFO max_memory 2146435072
+Got : INFO timeout_match 120000
+Got : INFO timeout_turn 120000
+Got : INFO game_type 0
+Got : INFO rule 1
+Got : INFO time_left 120000
+Got : BOARD
+Got : 4,4,1
+Got : 11,11,2
+Got : 7,5,1
+Got : 2,4,2

@@ -51,7 +51,7 @@ def click(a):
     win32api.mouse_event(win32con.MOUSEEVENTF_LEFTDOWN, 0, 0)
     win32api.mouse_event(win32con.MOUSEEVENTF_LEFTUP, 0, 0)
 
-def main():
+def main():    
     # Initialize Board
     x1 = 0
     y1 = 0
@@ -131,6 +131,7 @@ def main():
     def pwh(a):
         timeleft = a
         print('Timematch:', timeleft, 'seconds')
+        logs = []
         while True:
             if keyboard.is_pressed('alt+s'):
                 os.system('cls')
@@ -139,22 +140,21 @@ def main():
                 end()
             try:
                 try:
-                    v, b = pyautogui.locateCenterOnScreen('PO\ccc.png', confidence=0.8)
+                    v, b = pyautogui.locateCenterOnScreen('PO\ccc.png')
                     color = 'Black'
                 except:
                     v, b = pyautogui.locateCenterOnScreen('PO\wht.png', confidence=0.8)
                     color = 'White'
                 k = (v, b)
-                try:
-                    tk = tmp
-                except:
-                    tk = ''
-                tmp = returnpos(k)
-                if tmp is None:
-                    tmp = guess(k, value)
-                    tmp = returnpos(tmp)
-                if tk != tmp:
+                if k not in logs:
+                    logs.append(k)
+                    tmp = returnpos(k)
+                    if tmp is None:
+                        tmp = guess(k, value)
+                        tmp = returnpos(tmp)
+
                     moves = pktool(tmp, 0)
+                    
 
                     if color == 'Black':
                         a = clock()
@@ -181,8 +181,10 @@ def main():
 
     # noinspection PyUnboundLocalVariable
     def pbl(a):
+        time.sleep(0.3)
         timeleft = a
         print('Timematch:', timeleft, 'seconds')
+        log = []
         while True:
             if keyboard.is_pressed('alt+s'):
                 os.system('cls')
@@ -197,16 +199,14 @@ def main():
                     v, b = pyautogui.locateCenterOnScreen('PO\wht.png', confidence=0.8)
                     color = 'White'
                 k = (v, b)
-                try:
-                    tk = tmp
-                except:
-                    tk = ''
-                tmp = returnpos(k)
-                if tmp is None:
-                    tmp = guess(k, value)
-                    tmp = returnpos(tmp)
-                if tk != tmp:
+                if k not in log:
+                    log.append(k)
+                    tmp = returnpos(k)
+                    if tmp is None:
+                        tmp = guess(k, value)
+                        tmp = returnpos(tmp)
                     moves = pktool(tmp, 0)
+                    
                     if color == 'White':
                         a = clock()
                         movet = playw(moves)
@@ -329,6 +329,7 @@ def main():
                             else:
                                 c = '2'
                             put(log[i] + ',' + c)
+                        time.sleep(0.1)
                         put('DONE')
                         print('Start.')
                         a = clock()

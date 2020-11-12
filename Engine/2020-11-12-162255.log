@@ -1,0 +1,529 @@
+Compiled on Apr 23 2020 at 02:42:48
+Launched in Engine\
+Answered : MESSAGE Detected following devices : CPU : GenuineIntel : 4 x AVX with 4043MB of memory
+Answered : MESSAGE Using : CPU : GenuineIntel : 4 x AVX with 4043MB of memory
+Got : START 15
+Answered : OK
+Got : INFO max_memory 2146435072
+Got : INFO timeout_match 120000
+Got : INFO timeout_turn 120000
+Got : INFO game_type 0
+Got : INFO rule 1
+Got : INFO time_left 120000
+Got : BOARD
+Got : 14,7,1
+Got : 14,8,2
+Got : 11,12,1
+Got : 9,10,2
+Got : DONE
+Overall 221 children
+sum of visits = 2274
+BEST
+CROSS  (11, 9) Q=62.2% : H=0.102 : Visit=1428 : 25
+CROSS  (10, 10) Q=57.3% : H=0.414 : Visit=502 : 19
+CROSS  (9, 10) Q=54.6% : H=0.166 : Visit=141 : 20
+CROSS  (10, 11) Q=47.2% : H=0.18 : Visit=78 : 18
+CROSS  (9, 11) Q=57.9% : H=0.024 : Visit=36 : 24
+CROSS  (12, 10) Q=51.6% : H=0.048 : Visit=31 : 24
+CROSS  (11, 8) Q=59.4% : H=0.007 : Visit=16 : 27
+CROSS  (10, 8) Q=49.3% : H=0.013 : Visit=7 : 22
+CROSS  (11, 11) Q=48.1% : H=0.015 : Visit=7 : 22
+CROSS  (11, 12) Q=51.7% : H=0.009 : Visit=6 : 26
+WORST
+CROSS  (10, 14) Q=0% : H=0 : Visit=0 : 0
+CROSS  (14, 9) Q=0% : H=0 : Visit=0 : 0
+CROSS  (14, 12) Q=0% : H=0 : Visit=0 : 0
+CROSS  (2, 7) Q=0% : H=0 : Visit=0 : 0
+CROSS  (2, 6) Q=0% : H=0 : Visit=0 : 0
+CROSS  (3, 6) Q=0% : H=0 : Visit=0 : 0
+CROSS  (9, 5) Q=0% : H=0 : Visit=0 : 0
+CROSS  (3, 7) Q=0% : H=0 : Visit=0 : 0
+CROSS  (14, 10) Q=0% : H=0 : Visit=0 : 0
+CROSS  (14, 8) Q=0% : H=0 : Visit=0 : 0
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   X 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   O 
+  _   _   _   _   _   _   _   _   _   _   62  15  _   _   _ 
+  _   _   _   _   _   _   _   _    3  O  220  34  _   _   _ 
+  _   _   _   _   _   _   _   _    7 627  _    3   2  _   _ 
+  _   _   _   _   _   _   _   _   _   _   13  X   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+
+nodes used 54k / 39M (0.1%)
+memory = 1193.87 MB
+0 : CIRCLE (-1, -1) Q=40.3% : H=1 : Visit=2275 : 221
+1 : CROSS  (11, 9) Q=62.2% : H=0.102 : Visit=1428 : 25
+2 : CIRCLE (9, 8) Q=40.2% : H=0.11 : Visit=476 : 22
+3 : CROSS  (11, 11) Q=61.1% : H=0.368 : Visit=232 : 21
+4 : CIRCLE (11, 8) Q=43.7% : H=0.269 : Visit=144 : 20
+5 : CROSS  (10, 11) Q=60.5% : H=0.492 : Visit=109 : 11
+6 : CIRCLE (9, 11) Q=40.6% : H=0.833 : Visit=101 : 23
+7 : CROSS  (9, 10) Q=64.9% : H=0.481 : Visit=83 : 22
+8 : CIRCLE (8, 9) Q=44.6% : H=0.172 : Visit=42 : 22
+9 : CROSS  (12, 10) Q=63.1% : H=0.29 : Visit=25 : 23
+10 : CIRCLE (10, 8) Q=39.3% : H=0.832 : Visit=23 : 19
+11 : CROSS  (12, 8) Q=63.3% : H=0.793 : Visit=21 : 23
+12 : CIRCLE (12, 9) Q=40.8% : H=0.676 : Visit=17 : 21
+13 : CROSS  (10, 10) Q=51.7% : H=0.253 : Visit=4 : 22
+14 : CIRCLE (13, 10) Q=57% : H=0.37 : Visit=2 : 26
+15 : CROSS  (10, 7) Q=34.7% : H=0.671 : Visit=1 : 21
+16 : CIRCLE (6, 9) Q=0% : H=0 : Visit=0 : 0
+Total 16 moves ahead
+----NNCACHE-INFO----
+memory = 2.46883 MB / 795.912MB
+stored = 2192 elements
+calls  = 2330
+hits   = 97 (4.1%)
+--------------------
+Answered : MESSAGE depth 1-16 ev 59.6 n 2330 n/s 454 tm 5125 pv Xl9 Oj8 Xl11 Ol8 Xk11 Oj11 Xj10 Oi9 Xm10 Ok8 Xm8 Om9 Xk10 On10 Xk7 Og9
+Answered : 9,11
+Got : INFO time_left 114261
+Got : TURN 8,11
+Overall 219 children
+sum of visits = 2760
+BEST
+CROSS  (9, 10) Q=75.8% : H=0.857 : Visit=2713 : 21
+CROSS  (10, 11) Q=50.2% : H=0.082 : Visit=21 : 19
+CROSS  (10, 10) Q=53.6% : H=0.028 : Visit=9 : 19
+CROSS  (9, 11) Q=49.1% : H=0.009 : Visit=3 : 17
+CROSS  (10, 8) Q=58.4% : H=0.004 : Visit=1 : 22
+CROSS  (12, 10) Q=47.9% : H=0.003 : Visit=1 : 18
+CROSS  (12, 7) Q=45.6% : H=0.003 : Visit=1 : 25
+CROSS  (10, 7) Q=45.5% : H=0.005 : Visit=1 : 38
+CROSS  (9, 8) Q=43.6% : H=0 : Visit=1 : 28
+CROSS  (11, 12) Q=42.2% : H=0 : Visit=1 : 25
+WORST
+CROSS  (7, 8) Q=0% : H=0 : Visit=0 : 0
+CROSS  (14, 11) Q=0% : H=0 : Visit=0 : 0
+CROSS  (13, 7) Q=0% : H=0 : Visit=0 : 0
+CROSS  (10, 5) Q=0% : H=0 : Visit=0 : 0
+CROSS  (14, 8) Q=0% : H=0 : Visit=0 : 0
+CROSS  (14, 6) Q=0% : H=0 : Visit=0 : 0
+CROSS  (13, 6) Q=0% : H=0 : Visit=0 : 0
+CROSS  (9, 13) Q=0% : H=0 : Visit=0 : 0
+CROSS  (14, 10) Q=0% : H=0 : Visit=0 : 0
+CROSS  (14, 7) Q=0% : H=0 : Visit=0 : 0
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   X 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   O 
+  _   _   _   _   _   _   _   _   _   _  982   1  _   _   _ 
+  _   _   _   _   _   _   _   _   _   O    3   7  _   _   _ 
+  _   _   _   _   _   _   _   _   O   X   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   X   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+
+nodes used 75k / 39M (0.1%)
+memory = 1193.87 MB
+0 : CIRCLE (-1, -1) Q=24.6% : H=1 : Visit=2761 : 219
+1 : CROSS  (9, 10) Q=75.8% : H=0.857 : Visit=2713 : 21
+2 : CIRCLE (10, 8) Q=26.6% : H=0.119 : Visit=1241 : 19
+3 : CROSS  (10, 7) Q=75.7% : H=0.333 : Visit=931 : 45
+4 : CIRCLE (8, 10) Q=26.8% : H=0.298 : Visit=610 : 21
+5 : CROSS  (8, 8) Q=74.3% : H=0.558 : Visit=419 : 35
+6 : CIRCLE (7, 9) Q=30.8% : H=0.093 : Visit=147 : 21
+7 : CROSS  (9, 9) Q=71.8% : H=0.41 : Visit=71 : 14
+8 : CIRCLE (9, 11) Q=29.2% : H=0.933 : Visit=67 : 8
+9 : CROSS  (6, 8) Q=73.2% : H=0.723 : Visit=57 : 29
+10 : CIRCLE (7, 7) Q=29.5% : H=0.677 : Visit=46 : 36
+11 : CROSS  (7, 8) Q=67.8% : H=0.555 : Visit=22 : 14
+12 : CIRCLE (5, 8) Q=35.7% : H=0.753 : Visit=19 : 48
+13 : CROSS  (9, 6) Q=73.4% : H=0.191 : Visit=7 : 29
+14 : CIRCLE (8, 7) Q=31.8% : H=0.293 : Visit=3 : 38
+15 : CROSS  (6, 7) Q=64.7% : H=0.629 : Visit=2 : 15
+16 : CIRCLE (8, 9) Q=40% : H=0.636 : Visit=1 : 56
+17 : CROSS  (3, 4) Q=0% : H=0 : Visit=0 : 0
+Total 17 moves ahead
+----NNCACHE-INFO----
+memory = 4.61328 MB / 795.912MB
+stored = 2903 elements
+calls  = 7318
+hits   = 494 (6.7%)
+--------------------
+Answered : MESSAGE depth 1-17 ev 75.3 n 2865 n/s 529 tm 5408 pv Xj10 Ok8 Xk7 Oi10 Xi8 Oh9 Xj9 Oj11 Xg8 Oh7 Xh8 Of8 Xj6 Oi7 Xg7 Oi9 Xd4
+Answered : 10,9
+Got : INFO time_left 108784
+Got : TURN 11,9
+Overall 217 children
+sum of visits = 3828
+BEST
+CROSS  (10, 11) Q=76.8% : H=0.195 : Visit=2111 : 17
+CROSS  (8, 8) Q=75.5% : H=0.44 : Visit=1338 : 22
+CROSS  (8, 10) Q=72.2% : H=0.082 : Visit=136 : 16
+CROSS  (10, 8) Q=72.2% : H=0.051 : Visit=86 : 17
+CROSS  (12, 10) Q=64% : H=0.1 : Visit=66 : 21
+CROSS  (11, 12) Q=66.1% : H=0.038 : Visit=30 : 21
+CROSS  (8, 9) Q=63.8% : H=0.026 : Visit=17 : 16
+CROSS  (10, 7) Q=57.9% : H=0.027 : Visit=13 : 25
+CROSS  (10, 10) Q=69% : H=0.01 : Visit=12 : 16
+CROSS  (7, 9) Q=61.2% : H=0.01 : Visit=6 : 25
+WORST
+CROSS  (7, 12) Q=0% : H=0 : Visit=0 : 0
+CROSS  (13, 13) Q=0% : H=0 : Visit=0 : 0
+CROSS  (6, 7) Q=0% : H=0 : Visit=0 : 0
+CROSS  (14, 11) Q=0% : H=0 : Visit=0 : 0
+CROSS  (9, 13) Q=0% : H=0 : Visit=0 : 0
+CROSS  (13, 14) Q=0% : H=0 : Visit=0 : 0
+CROSS  (14, 10) Q=0% : H=0 : Visit=0 : 0
+CROSS  (10, 14) Q=0% : H=0 : Visit=0 : 0
+CROSS  (12, 14) Q=0% : H=0 : Visit=0 : 0
+CROSS  (11, 14) Q=0% : H=0 : Visit=0 : 0
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _    1  _   _   _   _   X 
+  _   _   _   _   _   _   _   _  349   4  35  _   _   _   O 
+  _   _   _   _   _   _   _   _   _   _   X   O   _   _   _ 
+  _   _   _   _   _   _   _    3  22  O    3 551  _   _   _ 
+  _   _   _   _   _   _   _   _   O   X   _   _    7  _   _ 
+  _   _   _   _   _   _   _   _   _   _   17  X   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+
+nodes used 105k / 39M (0.2%)
+memory = 1193.87 MB
+0 : CIRCLE (-1, -1) Q=24.4% : H=1 : Visit=3829 : 217
+1 : CROSS  (10, 11) Q=76.8% : H=0.195 : Visit=2111 : 17
+2 : CIRCLE (8, 9) Q=21.5% : H=0.667 : Visit=1197 : 24
+3 : CROSS  (12, 10) Q=80.1% : H=0.562 : Visit=1094 : 21
+4 : CIRCLE (12, 9) Q=16.8% : H=0.69 : Visit=428 : 26
+5 : CROSS  (11, 12) Q=86.2% : H=0.318 : Visit=258 : 31
+6 : CIRCLE (13, 10) Q=15.3% : H=0.688 : Visit=226 : 13
+7 : CROSS  (10, 7) Q=85% : H=0.971 : Visit=222 : 26
+8 : CIRCLE (10, 8) Q=14.9% : H=0.537 : Visit=122 : 24
+9 : CROSS  (12, 13) Q=91.9% : H=0.207 : Visit=65 : 1
+10 : CIRCLE (13, 14) Q=8% : H=0.999 : Visit=65 : 22
+11 : CROSS  (12, 12) Q=96% : H=0.565 : Visit=52 : 1
+12 : CIRCLE (12, 14) Q=3.9% : H=1 : Visit=52 : 18
+13 : CROSS  (10, 12) Q=96% : H=0.923 : Visit=49 : 27
+14 : CIRCLE (13, 12) Q=4.2% : H=0.546 : Visit=27 : 23
+15 : CROSS  (11, 11) Q=97.9% : H=0.802 : Visit=23 : 36
+16 : CIRCLE (9, 13) Q=5.7% : H=0.248 : Visit=7 : 24
+17 : CROSS  (11, 10) Q=99.9% : H=0.17 : Visit=2 : 1
+18 : CIRCLE (11, 13) Q=0% : H=1 : Visit=2 : 19
+19 : CROSS  (10, 10) Q=100% : H=0.634 : Visit=1 : 1
+20 : CIRCLE (8, 10) Q=0% : H=1 : Visit=1 : 2
+21 : CROSS  (9, 9) Q=0% : H=0.5 : Visit=0 : 0
+Total 21 moves ahead
+----NNCACHE-INFO----
+memory = 7.0089 MB / 795.912MB
+stored = 5263 elements
+calls  = 15586
+hits   = 2523 (16.1%)
+--------------------
+Answered : MESSAGE depth 1-21 ev 75.5 n 4135 n/s 809 tm 5109 pv Xk11 Oi9 Xm10 Om9 Xl12 On10 Xk7 Ok8 Xm13 On14 Xm12 Om14 Xk12 On12 Xl11 Oj13 Xl10 Ol13 Xk10 Oi10 Xj9
+Answered : 11,10
+Got : INFO time_left 103576
+Got : TURN 9,7
+Overall 215 children
+sum of visits = 3983
+BEST
+CROSS  (12, 10) Q=97% : H=0.272 : Visit=2210 : 28
+CROSS  (11, 12) Q=95.5% : H=0.432 : Visit=1498 : 10
+CROSS  (11, 10) Q=92.6% : H=0.084 : Visit=147 : 20
+CROSS  (8, 10) Q=81% : H=0.17 : Visit=91 : 16
+CROSS  (8, 9) Q=87.7% : H=0.012 : Visit=13 : 5
+CROSS  (9, 12) Q=71.2% : H=0.007 : Visit=3 : 23
+CROSS  (12, 12) Q=75.4% : H=0.001 : Visit=2 : 30
+CROSS  (10, 12) Q=74.9% : H=0.006 : Visit=2 : 28
+CROSS  (11, 11) Q=71.5% : H=0.003 : Visit=2 : 26
+CROSS  (10, 8) Q=69.8% : H=0 : Visit=2 : 20
+WORST
+CROSS  (11, 7) Q=0% : H=0 : Visit=0 : 0
+CROSS  (10, 14) Q=0% : H=0 : Visit=0 : 0
+CROSS  (14, 13) Q=0% : H=0 : Visit=0 : 0
+CROSS  (5, 9) Q=0% : H=0 : Visit=0 : 0
+CROSS  (14, 9) Q=0% : H=0 : Visit=0 : 0
+CROSS  (13, 9) Q=0% : H=0 : Visit=0 : 0
+CROSS  (14, 10) Q=0% : H=0 : Visit=0 : 0
+CROSS  (14, 11) Q=0% : H=0 : Visit=0 : 0
+CROSS  (14, 12) Q=0% : H=0 : Visit=0 : 0
+CROSS  (6, 7) Q=0% : H=0 : Visit=0 : 0
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   O   _   _   _   _   X 
+  _   _   _   _   _   _   _   _   _    3  22  _   _   _   O 
+  _   _   _   _   _   _   _   _   _   _   X   O   _   _   _ 
+  _   _   _   _   _   _   _   _   _   O   _   X   _   _   _ 
+  _   _   _   _   _   _   _   _   O   X   36  _  376  _   _ 
+  _   _   _   _   _   _   _   _   _   _  554  X   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+
+nodes used 91k / 39M (0.2%)
+memory = 1193.87 MB
+0 : CIRCLE (-1, -1) Q=4.2% : H=1 : Visit=3984 : 215
+1 : CROSS  (12, 10) Q=97% : H=0.272 : Visit=2210 : 28
+2 : CIRCLE (8, 10) Q=3.2% : H=0.541 : Visit=1338 : 22
+3 : CROSS  (10, 12) Q=97.9% : H=0.696 : Visit=1286 : 56
+4 : CIRCLE (8, 9) Q=2.2% : H=0.524 : Visit=707 : 27
+5 : CROSS  (12, 12) Q=98.6% : H=0.329 : Visit=264 : 37
+6 : CIRCLE (12, 9) Q=0.2% : H=0.461 : Visit=107 : 22
+7 : CROSS  (11, 12) Q=99.8% : H=0.589 : Visit=65 : 52
+8 : CIRCLE (9, 9) Q=0% : H=0.373 : Visit=26 : 1
+9 : CROSS  (6, 9) Q=99.9% : H=0.999 : Visit=26 : 62
+10 : CIRCLE (6, 8) Q=0% : H=0.272 : Visit=8 : 1
+11 : CROSS  (5, 7) Q=99.9% : H=1 : Visit=8 : 66
+12 : CIRCLE (8, 8) Q=0% : H=0.307 : Visit=3 : 2
+13 : CROSS  (9, 12) Q=100% : H=0.5 : Visit=1 : 2
+14 : CIRCLE (8, 12) Q=0% : H=0.5 : Visit=0 : 0
+Total 14 moves ahead
+----NNCACHE-INFO----
+memory = 8.69608 MB / 795.912MB
+stored = 2392 elements
+calls  = 23911
+hits   = 3792 (15.8%)
+--------------------
+Answered : MESSAGE depth 1-14 ev 95.7 n 4772 n/s 971 tm 4910 pv Xm10 Oi10 Xk12 Oi9 Xm12 Om9 Xl12 Oj9 Xg9 Og8 Xf7 Oi8 Xj12 Oi12
+Answered : 10,12
+Got : INFO time_left 98634
+Got : TURN 10,8
+Overall 213 children
+sum of visits = 13939
+BEST
+CROSS  (10, 12) Q=98.7% : H=0.696 : Visit=13685 : 56
+CROSS  (6, 8) Q=75.2% : H=0.285 : Visit=245 : 26
+CROSS  (12, 13) Q=0% : H=0.013 : Visit=2 : 2
+CROSS  (12, 12) Q=0% : H=0.001 : Visit=1 : 2
+CROSS  (11, 13) Q=0% : H=0 : Visit=1 : 1
+CROSS  (12, 9) Q=0% : H=0 : Visit=1 : 2
+CROSS  (11, 12) Q=0% : H=0 : Visit=1 : 2
+CROSS  (12, 8) Q=0% : H=0 : Visit=1 : 2
+CROSS  (13, 11) Q=0% : H=0 : Visit=1 : 2
+CROSS  (10, 8) Q=0% : H=0 : Visit=1 : 2
+WORST
+CROSS  (10, 14) Q=0% : H=0 : Visit=0 : 0
+CROSS  (4, 7) Q=0% : H=0 : Visit=0 : 0
+CROSS  (13, 7) Q=0% : H=0 : Visit=0 : 0
+CROSS  (11, 7) Q=0% : H=0 : Visit=0 : 0
+CROSS  (10, 7) Q=0% : H=0 : Visit=0 : 0
+CROSS  (5, 8) Q=0% : H=0 : Visit=0 : 0
+CROSS  (10, 6) Q=0% : H=0 : Visit=0 : 0
+CROSS  (13, 8) Q=0% : H=0 : Visit=0 : 0
+CROSS  (5, 9) Q=0% : H=0 : Visit=0 : 0
+CROSS  (9, 14) Q=0% : H=0 : Visit=0 : 0
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   17  _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   O   _   _   _   _   X 
+  _   _   _   _   _   _   _   _   _   _   O   _   _   _   O 
+  _   _   _   _   _   _   _   _   _   _   X   O   _   _   _ 
+  _   _   _   _   _   _   _   _   _   O   _   X  981  _   _ 
+  _   _   _   _   _   _   _   _   O   X   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   X   X   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+
+nodes used 218k / 39M (0.5%)
+memory = 1193.87 MB
+0 : CIRCLE (-1, -1) Q=1.6% : H=1 : Visit=13940 : 213
+1 : CROSS  (10, 12) Q=98.7% : H=0.696 : Visit=13685 : 56
+2 : CIRCLE (8, 9) Q=1.1% : H=0.524 : Visit=6866 : 27
+3 : CROSS  (12, 12) Q=99% : H=0.329 : Visit=2489 : 37
+4 : CIRCLE (12, 13) Q=1.8% : H=0.252 : Visit=922 : 25
+5 : CROSS  (9, 12) Q=98% : H=0.347 : Visit=308 : 38
+6 : CIRCLE (11, 12) Q=2.6% : H=0.353 : Visit=123 : 27
+7 : CROSS  (11, 11) Q=99.8% : H=0.326 : Visit=54 : 47
+8 : CIRCLE (9, 9) Q=0% : H=0.444 : Visit=26 : 1
+9 : CROSS  (6, 9) Q=99.9% : H=0.999 : Visit=26 : 52
+10 : CIRCLE (13, 9) Q=0% : H=0.351 : Visit=11 : 24
+11 : CROSS  (13, 11) Q=100% : H=0.824 : Visit=9 : 1
+12 : CIRCLE (14, 11) Q=0% : H=1 : Visit=9 : 1
+13 : CROSS  (10, 8) Q=100% : H=1 : Visit=8 : 2
+14 : CIRCLE (9, 7) Q=0% : H=0.5 : Visit=4 : 1
+15 : CROSS  (14, 12) Q=100% : H=1 : Visit=3 : 0
+Total 15 moves ahead
+----NNCACHE-INFO----
+memory = 8.69608 MB / 795.912MB
+stored = 3430 elements
+calls  = 37756
+hits   = 7577 (20%)
+--------------------
+Answered : MESSAGE depth 1-15 ev 98.3 n 16192 n/s 3519 tm 4600 pv Xk12 Oi9 Xm12 Om13 Xj12 Ol12 Xl11 Oj9 Xg9 On9 Xn11 Oo11 Xk8 Oj7 Xo12
+Answered : 12,10
+Got : INFO time_left 93965
+Got : TURN 8,6
+ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+ _ _ _ _ _ _ _>X<_ _ _ _ _ _ _ 
+ _ _ _ _ _ _ _ _ O _ _ _ _ _ _ 
+ _ _ _ _ _ _ _ _ _ O _ _ _ _ X 
+ _ _ _ _ _ _ _ _ _ _ O _ _ _ O 
+ _ _ _ _ _ _ _ _ _ _ X O _ _ _ 
+ _ _ _ _ _ _ _ _ _ O _ X X _ _ 
+ _ _ _ _ _ _ _ _ O X _ _ _ _ _ 
+ _ _ _ _ _ _ _ _ _ _ X X _ _ _ 
+ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+Answered : 7,5
+Got : INFO time_left 93965
+Got : TURN 11,11
+Overall 209 children
+sum of visits = 37769
+BEST
+CROSS  (12, 13) Q=99.9% : H=0.422 : Visit=30719 : 57
+CROSS  (11, 12) Q=97.9% : H=0.129 : Visit=2210 : 30
+CROSS  (12, 9) Q=96.3% : H=0.205 : Visit=2163 : 30
+CROSS  (12, 12) Q=96.3% : H=0.187 : Visit=1959 : 32
+CROSS  (10, 8) Q=97.9% : H=0.02 : Visit=339 : 44
+CROSS  (10, 10) Q=98.8% : H=0.005 : Visit=156 : 48
+CROSS  (11, 10) Q=97.7% : H=0.005 : Visit=89 : 39
+CROSS  (9, 12) Q=91.3% : H=0.011 : Visit=56 : 46
+CROSS  (13, 10) Q=98.5% : H=0.001 : Visit=38 : 51
+CROSS  (13, 11) Q=98.7% : H=0 : Visit=14 : 36
+WORST
+CROSS  (4, 8) Q=0% : H=0 : Visit=0 : 0
+CROSS  (6, 10) Q=0% : H=0 : Visit=0 : 0
+CROSS  (5, 9) Q=0% : H=0 : Visit=0 : 0
+CROSS  (9, 6) Q=0% : H=0 : Visit=0 : 0
+CROSS  (4, 9) Q=0% : H=0 : Visit=0 : 0
+CROSS  (14, 9) Q=0% : H=0 : Visit=0 : 0
+CROSS  (7, 6) Q=0% : H=0 : Visit=0 : 0
+CROSS  (13, 8) Q=0% : H=0 : Visit=0 : 0
+CROSS  (5, 8) Q=0% : H=0 : Visit=0 : 0
+CROSS  (14, 8) Q=0% : H=0 : Visit=0 : 0
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   X   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   O   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   O   _   _   _   _   X 
+  _   _   _   _   _   _   _   _   _   _   O   _   _   _   O 
+  _   _   _   _   _   _   _   _   _   _   X   O    1  _   _ 
+  _   _   _   _   _   _   _   _    8  O    4  X   X   _   _ 
+  _   _   _   _   _   _   _   _   O   X    2  O   58  _   _ 
+  _   _   _   _   _   _   _   _   _   57  X   X   51 813  _ 
+  _   _   _   _   _   _   _   _   _   _    1  _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+
+nodes used 69k / 39M (0.1%)
+memory = 1193.87 MB
+0 : CIRCLE (-1, -1) Q=0.5% : H=1 : Visit=37770 : 209
+1 : CROSS  (12, 13) Q=99.9% : H=0.422 : Visit=30719 : 57
+2 : CIRCLE (11, 12) Q=0% : H=0.475 : Visit=14615 : 1
+3 : CROSS  (12, 12) Q=100% : H=1 : Visit=14614 : 2
+4 : CIRCLE (12, 9) Q=0% : H=0.5 : Visit=7307 : 1
+5 : CROSS  (12, 14) Q=100% : H=1 : Visit=7306 : 0
+Total 5 moves ahead
+----NNCACHE-INFO----
+memory = 8.69608 MB / 795.912MB
+stored = 1417 elements
+calls  = 60170
+hits   = 12497 (20.7%)
+--------------------
+Answered : MESSAGE depth 1-5 ev 99.4 n 38432 n/s 8734 tm 4400 pv Xm13 Ol12 Xm12 Om9 Xm14
+Answered : 13,12
+Got : INFO time_left 89493
+Got : TURN 9,8
+Overall 207 children
+sum of visits = 3815935
+BEST
+CROSS  (12, 12) Q=100% : H=1 : Visit=3815935 : 2
+CROSS  (0, 0) Q=0% : H=0 : Visit=0 : 0
+CROSS  (0, 1) Q=0% : H=0 : Visit=0 : 0
+CROSS  (0, 2) Q=0% : H=0 : Visit=0 : 0
+CROSS  (0, 3) Q=0% : H=0 : Visit=0 : 0
+CROSS  (0, 4) Q=0% : H=0 : Visit=0 : 0
+CROSS  (0, 5) Q=0% : H=0 : Visit=0 : 0
+CROSS  (0, 6) Q=0% : H=0 : Visit=0 : 0
+CROSS  (0, 7) Q=0% : H=0 : Visit=0 : 0
+CROSS  (0, 8) Q=0% : H=0 : Visit=0 : 0
+WORST
+CROSS  (14, 5) Q=0% : H=0 : Visit=0 : 0
+CROSS  (14, 6) Q=0% : H=0 : Visit=0 : 0
+CROSS  (14, 7) Q=0% : H=0 : Visit=0 : 0
+CROSS  (14, 8) Q=0% : H=0 : Visit=0 : 0
+CROSS  (14, 9) Q=0% : H=0 : Visit=0 : 0
+CROSS  (14, 10) Q=0% : H=0 : Visit=0 : 0
+CROSS  (14, 11) Q=0% : H=0 : Visit=0 : 0
+CROSS  (14, 12) Q=0% : H=0 : Visit=0 : 0
+CROSS  (14, 13) Q=0% : H=0 : Visit=0 : 0
+CROSS  (14, 14) Q=0% : H=0 : Visit=0 : 0
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   X   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   O   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   O   _   _   _   _   X 
+  _   _   _   _   _   _   _   _   _   O   O   _   _   _   O 
+  _   _   _   _   _   _   _   _   _   _   X   O   _   _   _ 
+  _   _   _   _   _   _   _   _   _   O   _   X   X   _   _ 
+  _   _   _   _   _   _   _   _   O   X   _   O   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   X   X  999  X   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+
+nodes used 0k / 39M (0%)
+memory = 1193.87 MB
+0 : CIRCLE (-1, -1) Q=0% : H=1 : Visit=3815936 : 207
+1 : CROSS  (12, 12) Q=100% : H=1 : Visit=3815935 : 2
+2 : CIRCLE (12, 9) Q=0% : H=0.5 : Visit=1907967 : 1
+3 : CROSS  (12, 14) Q=100% : H=1.001 : Visit=1907966 : 0
+Total 3 moves ahead
+----NNCACHE-INFO----
+memory = 8.69608 MB / 795.912MB
+stored = 12 elements
+calls  = 62979
+hits   = 12881 (20.4%)
+--------------------
+Answered : MESSAGE depth 1-3 ev 100.0 n 3815936 n/s 930662 tm 4100 pv Xm12 Om9 Xm14
+Answered : 12,12
+Got : INFO time_left 85305
+Got : TURN 9,12
+ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+ _ _ _ _ _ _ _ X _ _ _ _ _ _ _ 
+ _ _ _ _ _ _ _ _ O _ _ _ _ _ _ 
+ _ _ _ _ _ _ _ _ _ O _ _ _ _ X 
+ _ _ _ _ _ _ _ _ _ O O _ _ _ O 
+ _ _ _ _ _ _ _ _ _ _ X O _ _ _ 
+ _ _ _ _ _ _ _ _ _ O _ X X _ _ 
+ _ _ _ _ _ _ _ _ O X _ O _ _ _ 
+ _ _ _ _ _ _ _ _ _ O X X X X>X<
+ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+Answered : 14,12
+Got : INFO time_left 85305
+Got : BOARD
+Got : 4,5,2
+Got : 5,6,1
+Got : 8,9,2
+Got : DONE
