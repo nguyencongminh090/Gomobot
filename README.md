@@ -7,18 +7,17 @@ Thanks for using my program.
 - Pynput
 - Pyautogui
 - Keyboard
-- Pywin32
 # How to use:
-Ctrl + X: initializes the opening.
+Alt+W : Computer play as white
 
-Choose the color of stone (black/white)
+Alt+B : Computer play as black
 
 Alt+S : Stop and Restart
 
 Note: Board size have to be full screen (Look image if you have error. Try it first if still have error, report me.)
 
 # Image
-![Image](https://github.com/nguyencongminh090/Gomobot/blob/master/Board.png)
+![Image](https://github.com/nguyencongminh090/Program/blob/master/Board.png)
 
 
 

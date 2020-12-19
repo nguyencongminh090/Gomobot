@@ -1,18 +1,16 @@
-import os
-import time
+import math
 from time import perf_counter as clock
 
-import keyboard
-import pyautogui
 import win32api
 import win32con
-import math
 
 import connect
+import engine_author as ea
 from connect import *
 from connect import timeleft as tmleft
 from coordinates import *
-import engine_author as ea
+from plugin import *
+
 
 def end(cls=None):
     """
@@ -30,7 +28,7 @@ def end(cls=None):
 
     elif cls == 'restart':
         connect.engine.kill()
-        connect.engine = subprocess.Popen('Engine\engine.exe', universal_newlines=True,
+        connect.engine = subprocess.Popen('Engine\\engine.exe', universal_newlines=True,
                                           stdin=subprocess.PIPE, stdout=subprocess.PIPE, bufsize=1)
 
 
@@ -39,9 +37,10 @@ def restart():
     Restart engine
     """
     connect.engine.kill()
-    connect.engine = subprocess.Popen('Engine\engine.exe', universal_newlines=True,
+    connect.engine = subprocess.Popen('Engine\\engine.exe', universal_newlines=True,
                                       stdin=subprocess.PIPE, stdout=subprocess.PIPE, bufsize=1)
     timematch(tinput())
+
 
 def click(a):
     """
@@ -51,7 +50,8 @@ def click(a):
     win32api.mouse_event(win32con.MOUSEEVENTF_LEFTDOWN, 0, 0)
     win32api.mouse_event(win32con.MOUSEEVENTF_LEFTUP, 0, 0)
 
-def main():    
+
+def main():
     # Initialize Board
     x1 = 0
     y1 = 0
@@ -67,6 +67,12 @@ def main():
     print('\t\t\t\tGomoku bot      ')
     print('\t\t------------------------------------------')
     print(connect.lic)
+    print('About engine:')
+    print('- Name:', ea.name)
+    print('- Version:', ea.version)
+    print('- Author:', ea.author)
+    print('- Country:', ea.country)
+    print('- Email:', ea.email)
     x = x1 + kcx
     y = y1 - kcy
     coord = []
@@ -84,7 +90,7 @@ def main():
             y1 += kcy
             output = (math.trunc(round(x)), math.trunc(round(y1)))
             value.append(output)
-            
+
     def find(a, b):
         for i in range(len(b)):
             if a == b[i]:
@@ -140,10 +146,10 @@ def main():
                 end()
             try:
                 try:
-                    v, b = pyautogui.locateCenterOnScreen('PO\ccc.png')
+                    v, b = pyautogui.locateCenterOnScreen('PO\\ccc.png', confidence=0.8)
                     color = 'Black'
                 except:
-                    v, b = pyautogui.locateCenterOnScreen('PO\wht.png', confidence=0.8)
+                    v, b = pyautogui.locateCenterOnScreen('PO\\wht.png', confidence=0.8)
                     color = 'White'
                 k = (v, b)
                 if k not in logs:
@@ -154,7 +160,6 @@ def main():
                         tmp = returnpos(tmp)
 
                     moves = pktool(tmp, 0)
-                    
 
                     if color == 'Black':
                         a = clock()
@@ -193,10 +198,10 @@ def main():
                 end()
             try:
                 try:
-                    v, b = pyautogui.locateCenterOnScreen('PO\ccc.png')
+                    v, b = pyautogui.locateCenterOnScreen('PO\\ccc.png', confidence=0.8)
                     color = 'Black'
                 except:
-                    v, b = pyautogui.locateCenterOnScreen('PO\wht.png', confidence=0.8)
+                    v, b = pyautogui.locateCenterOnScreen('PO\\wht.png', confidence=0.8)
                     color = 'White'
                 k = (v, b)
                 if k not in log:
@@ -206,7 +211,7 @@ def main():
                         tmp = guess(k, value)
                         tmp = returnpos(tmp)
                     moves = pktool(tmp, 0)
-                    
+
                     if color == 'White':
                         a = clock()
                         movet = playw(moves)
@@ -231,7 +236,8 @@ def main():
                 continue
 
     # noinspection PyUnboundLocalVariable
-    def swap():
+    
+    def swap1():
         os.system('cls')
         print('\t\t\t\tGomoku bot      ')
         print('\t\t------------------------------------------')
@@ -242,6 +248,8 @@ def main():
         print('- Author:', ea.author)
         print('- Country:', ea.country)
         print('- Email:', ea.email)
+        print('\n')
+        print('Status: Waiting')
         count = 0
         option = ''
         timeleft = int(tinput())
@@ -249,6 +257,7 @@ def main():
         put('BOARD')
         log = []
         logs = []
+        timing = clock()
         while True:
             if keyboard.is_pressed('alt+s'):
                 os.system('cls')
@@ -269,12 +278,12 @@ def main():
                         v, b = pyautogui.locateCenterOnScreen('PO\\bwstone.png', confidence=0.8)
                     color = 'White'
                 k = (v, b)
-##              Fix version 0.2
-##              ----------------
-##                try:
-##                    tk = tmp
-##                except:
-##                    tk = ''
+                ##              Fix version 0.2
+                ##              ----------------
+                ##                try:
+                ##                    tk = tmp
+                ##                except:
+                ##                    tk = ''
 
                 if k not in logs:
                     logs.append(k)
@@ -291,7 +300,7 @@ def main():
                         elif color == 'White':
                             c = '1'
                         put(moves + ',' + c)
-                        #print('--> Put:', moves + ',' + c)
+                        # print('--> Put:', moves + ',' + c)
                         if option == '':
                             option = pyautogui.confirm('Engine play black or white?',
                                                        title='Gomoku Bot', buttons=('Black', 'White'))
@@ -307,8 +316,9 @@ def main():
                             print('Time left:', timeleft / 1000, 'second')
                             print('-----------------------------------')
                             tmleft(timeleft)
-                            movet = pktool(movet, 1)
                             print('--> Output:', movet)
+                            movet = pktool(movet, 1)
+                            print('--> Moves:', movet)
                             movet = returnmove(movet)
                             click(movet)
                             count = 0
@@ -352,17 +362,99 @@ def main():
                         pbl(timeleft)
                         break
                     else:
-                        #print('--> Moved:', tmp, '-', color)
+                        # print('--> Moved:', tmp, '-', color)
                         count += 1
                         if color == 'Black':
                             c = '2'
                         elif color == 'White':
                             c = '1'
-                        #print('--> Put:', moves + ',' + c)
+                        # print('--> Put:', moves + ',' + c)
                         put(moves + ',' + c)
             except:
                 continue
-
+    
+    def swap():
+        os.system('cls')
+        print('\t\t\t\tGomoku bot      ')
+        print('\t\t------------------------------------------')
+        print(connect.lic)
+        print('About engine:')
+        print('- Name:', ea.name)
+        print('- Version:', ea.version)
+        print('- Author:', ea.author)
+        print('- Country:', ea.country)
+        print('- Email:', ea.email)
+        timeleft = int(tinput())
+        print('Timematch:', timeleft, 'seconds')
+        put('BOARD')
+        openning = opening()
+        print('Len opening:', len(openning))
+        for i in range(len(openning)):
+            tmp = returnpos(openning[i])
+            if tmp is None:
+                tmp = guess(openning[i], value)
+                tmp = returnpos(tmp)
+            print(tmp)
+            moves = pktool(tmp, 0)
+            openning.pop(i)
+            openning.insert(i, moves)
+        if len(openning) % 2 != 0:
+            a = clock()
+            for i in range(len(openning)):
+                if i % 2 == 0:
+                    c = '2'
+                else:
+                    c = '1'
+                put(openning[i] + ',' + c)
+                time.sleep(0.3)
+            put('DONE')            
+            movet = get()
+            b = clock()
+            tl = round(round(b - a, 3) * 1000)
+            timeleft = timeleft - tl
+            print('-----------------------------------')
+            print('Time left:', timeleft / 1000, 'second')
+            print('-----------------------------------')
+            tmleft(timeleft)
+            print('--> Output:', movet)
+            print('Status: Done')
+            movet = pktool(movet, 1)
+            print('--> Moves:', movet)
+            movet = returnmove(movet)
+            click(movet)
+            time.sleep(0.5)
+            pwh(timeleft)
+            return
+        else:
+            a = clock()
+            for i in range(len(openning)):
+                if i % 2 == 0:
+                    c = '1'
+                else:
+                    c = '2'
+                put(openning[i] + ',' + c)
+                time.sleep(0.3)
+            put('DONE')            
+            movet = get()
+            b = clock()
+            tl = round(round(b - a, 3) * 1000)
+            timeleft = timeleft - tl
+            print('-----------------------------------')
+            print('Time left:', timeleft / 1000, 'second')
+            print('-----------------------------------')
+            tmleft(timeleft)
+            print('--> Output:', movet)
+            print('Status: Done')
+            movet = pktool(movet, 1)
+            print('--> Moves:', movet)
+            movet = returnmove(movet)
+            click(movet)
+            time.sleep(0.5)
+            pbl(timeleft)
+            return
+    
+        
+        
     while True:
         if keyboard.is_pressed('ctrl+shift+x'):
             swap()
