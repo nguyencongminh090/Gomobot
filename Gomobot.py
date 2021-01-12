@@ -64,15 +64,19 @@ def main():
     kcx = 41.6
     kcy = 41.6
     os.system('cls')
-    print('\t\t\t\tGomoku bot      ')
+    print('\t\t\t\tGomoku bot 0.9     ')
     print('\t\t------------------------------------------')
-    print(connect.lic)
+##    print(connect.lic)
     print('About engine:')
     print('- Name:', ea.name)
     print('- Version:', ea.version)
     print('- Author:', ea.author)
     print('- Country:', ea.country)
     print('- Email:', ea.email)
+    if ea.name == 'AlphaGomoku':
+        print('- Support Ponder: Yes')
+    else:
+        print('- Support Ponder: No')
     x = x1 + kcx
     y = y1 - kcy
     coord = []
@@ -132,274 +136,196 @@ def main():
                 k = findi(s, value)
                 output = coord[k]
                 return output
-
+    def chtime(n):
+        n //= 1000
+        m = n // 60
+        s = n - m*60
+        return 'Time: {}:{}'.format(m if m > 9 else '0'+str(m), s if s > 9 else '0'+str(s))
+    
     # noinspection PyUnboundLocalVariable
-    def pwh(a):
+    def pwh(a, lst):
         timeleft = a
-        print('Timematch:', timeleft, 'seconds')
-        logs = []
+        print('Timematch:', timeleft // 60, 'seconds')
+        logs = lst
+##        print('Opening:', logs)
+
         while True:
             if keyboard.is_pressed('alt+s'):
                 os.system('cls')
                 break
             if keyboard.is_pressed('esc'):
                 end()
+            a = clock()
             try:
                 try:
-                    v, b = pyautogui.locateCenterOnScreen('PO\\ccc.png', confidence=0.8)
-                    color = 'Black'
+                    v, b = pyautogui.locateCenterOnScreen('PO\\ccc.png', confidence=0.7)
+##                    color = 'Black'
                 except:
-                    v, b = pyautogui.locateCenterOnScreen('PO\\wht.png', confidence=0.8)
-                    color = 'White'
+                    continue
                 k = (v, b)
-                if k not in logs:
-                    logs.append(k)
-                    tmp = returnpos(k)
-                    if tmp is None:
-                        tmp = guess(k, value)
-                        tmp = returnpos(tmp)
+                
+                mks = guess(k, value)
+                mks = returnpos(mks)
+                mks = pktool(mks, 0)
+                if mks not in logs:
+                    logs.append(mks)
+                    moves = mks
+                    movet = playb(moves)
+##                    ev = movet[1]
+##                      print('--> Evaluation:', ev)
+##                      b = clock()
+##                    if ev == '-M0':
+##                        break
+                    click(returnmove(pktool(movet[0], 1)))
+##                    if ev == '+M1':
+##                            break
+                    b = clock()
+                    tl = round(round(b - a, 3) * 1000)
+                    timeleft = timeleft - tl
+                     #  print('-----------------------------------')
+                    print(chtime(timeleft))
+                     #  print('-----------------------------------')
+                    c = clock()
+                    tmleft(timeleft - round(round(b - c, 3) * 1000))
 
-                    moves = pktool(tmp, 0)
 
-                    if color == 'Black':
-                        a = clock()
-                        movet = playb(moves)
-                        ev = movet[1]
-                        print('--> Evaluation:', ev)
-                        b = clock()
-                        if ev == '-M0':
-                            break
-                        movet = pktool(movet[0], 1)
-                        moveto = returnmove(movet)
-                        click(moveto)
-                        if ev == '+M1':
-                            break
-                        tl = round(round(b - a, 3) * 1000)
-                        timeleft = timeleft - tl
-                        print('-----------------------------------')
-                        print('Time left:', timeleft / 1000, 'second')
-                        print('-----------------------------------')
-                        tmleft(timeleft)
+##                    if color == 'Black':
+####                        a = clock()
+##                        movet = playb(moves)
+##                        ev = movet[1]
+####                        print('--> Evaluation:', ev)
+####                        b = clock()
+##                        if ev == '-M0':
+##                            break
+##                        movet = pktool(movet[0], 1)
+##                        moveto = returnmove(movet)
+##                        click(moveto)
+##                        if ev == '+M1':
+##                            break
+##                        b = clock()
+##                        tl = round(round(b - a, 3) * 1000)
+##                        timeleft = timeleft - tl
+##                     #   print('-----------------------------------')
+##                        print(chtime(timeleft))
+##                     #   print('-----------------------------------')
+##                        tmleft(timeleft)
 
-            except:
+            except:                         
                 continue
 
     # noinspection PyUnboundLocalVariable
-    def pbl(a):
-        time.sleep(0.3)
+    def pbl(a, lst):
         timeleft = a
-        print('Timematch:', timeleft, 'seconds')
-        log = []
+        print('Timematch:', timeleft//60, 'seconds')
+        log = lst
+##        print('Opening:', log)
         while True:
             if keyboard.is_pressed('alt+s'):
                 os.system('cls')
                 break
             if keyboard.is_pressed('esc'):
                 end()
+            a = clock()
             try:
                 try:
-                    v, b = pyautogui.locateCenterOnScreen('PO\\ccc.png', confidence=0.8)
-                    color = 'Black'
-                except:
                     v, b = pyautogui.locateCenterOnScreen('PO\\wht.png', confidence=0.8)
-                    color = 'White'
+                except:
+                    continue
                 k = (v, b)
-                if k not in log:
-                    log.append(k)
-                    tmp = returnpos(k)
-                    if tmp is None:
-                        tmp = guess(k, value)
-                        tmp = returnpos(tmp)
-                    moves = pktool(tmp, 0)
-
-                    if color == 'White':
-                        a = clock()
-                        movet = playw(moves)
-                        b = clock()
-                        ev = movet[1]
-                        print('--> Evaluation:', ev)
-                        if ev == '-M0':
-                            break
-                        movet = pktool(movet[0], 1)
-                        moveto = returnmove(movet)
-                        click(moveto)
-                        if ev == '+M1':
-                            break
+                mks = guess(k, value)
+                mks = returnpos(mks)
+                mks = pktool(mks, 0)
+                if mks not in log:
+##                    print('Moves:', mks)
+                    log.append(mks)
+                    moves = mks
+                    movet = playw(moves)
+##                        b = clock()
+##                    ev = movet[1]
+##                        print('--> Evaluation:', ev)
+##                    if ev == '-M0':
+##                            break
+                    click(returnmove(pktool(movet[0], 1)))
+##                    if ev == '+M1':
+##                        break
                         ##print('Engine move:',movet)
-                        tl = round(round(b - a, 3) * 1000)
-                        timeleft = timeleft - tl
-                        print('-----------------------------------')
-                        print('Time left:', timeleft / 1000, 'second')
-                        print('-----------------------------------')
-                        tmleft(timeleft)
+                    b = clock()
+                    tl = round(round(b - a, 3) * 1000)
+                    timeleft = timeleft - tl
+                       # print('-----------------------------------')
+                    print(chtime(timeleft))
+                       # print('-----------------------------------')
+                    c = clock()
+                    tmleft(timeleft - round(round(b - c, 3) * 1000))
+
+##                    if color == 'White':
+####                        a = clock()
+##                        movet = playw(moves)
+####                        b = clock()
+##                        ev = movet[1]
+####                        print('--> Evaluation:', ev)
+##                        if ev == '-M0':
+##                            break
+##                        movet = pktool(movet[0], 1)
+##                        moveto = returnmove(movet)
+##                        click(moveto)
+##                        if ev == '+M1':
+##                            break
+##                        ##print('Engine move:',movet)
+##                        b = clock()
+##                        tl = round(round(b - a, 3) * 1000)
+##                        timeleft = timeleft - tl
+##                       # print('-----------------------------------')
+##                        print(chtime(timeleft))
+##                       # print('-----------------------------------')
+##                        tmleft(timeleft)
             except:
                 continue
 
     # noinspection PyUnboundLocalVariable
     
-    def swap1():
-        os.system('cls')
-        print('\t\t\t\tGomoku bot      ')
-        print('\t\t------------------------------------------')
-        print(connect.lic)
-        print('About engine:')
-        print('- Name:', ea.name)
-        print('- Version:', ea.version)
-        print('- Author:', ea.author)
-        print('- Country:', ea.country)
-        print('- Email:', ea.email)
-        print('\n')
-        print('Status: Waiting')
-        count = 0
-        option = ''
-        timeleft = int(tinput())
-        print('Timematch:', timeleft, 'seconds')
-        put('BOARD')
-        log = []
-        logs = []
-        timing = clock()
-        while True:
-            if keyboard.is_pressed('alt+s'):
-                os.system('cls')
-                break
-            if keyboard.is_pressed('esc'):
-                end()
-            try:
-                try:
-                    try:
-                        v, b = pyautogui.locateCenterOnScreen('PO\\wbstone.png', confidence=0.8)
-                    except:
-                        v, b = pyautogui.locateCenterOnScreen('PO\\ccc.png', confidence=0.8)
-                    color = 'Black'
-                except:
-                    try:
-                        v, b = pyautogui.locateCenterOnScreen('PO\\wht.png', confidence=0.8)
-                    except:
-                        v, b = pyautogui.locateCenterOnScreen('PO\\bwstone.png', confidence=0.8)
-                    color = 'White'
-                k = (v, b)
-                ##              Fix version 0.2
-                ##              ----------------
-                ##                try:
-                ##                    tk = tmp
-                ##                except:
-                ##                    tk = ''
-
-                if k not in logs:
-                    logs.append(k)
-                    tmp = returnpos(k)
-                    if tmp is None:
-                        tmp = guess(k, value)
-                        tmp = returnpos(tmp)
-
-                    moves = pktool(tmp, 0)
-                    log.append(moves)
-                    if count == 2:
-                        if color == 'Black':
-                            c = '2'
-                        elif color == 'White':
-                            c = '1'
-                        put(moves + ',' + c)
-                        # print('--> Put:', moves + ',' + c)
-                        if option == '':
-                            option = pyautogui.confirm('Engine play black or white?',
-                                                       title='Gomoku Bot', buttons=('Black', 'White'))
-                        if option == 'White':
-                            put('DONE')
-                            print('Start.')
-                            a = clock()
-                            movet = get()
-                            b = clock()
-                            tl = round(round(b - a, 3) * 1000)
-                            timeleft = timeleft - tl
-                            print('-----------------------------------')
-                            print('Time left:', timeleft / 1000, 'second')
-                            print('-----------------------------------')
-                            tmleft(timeleft)
-                            print('--> Output:', movet)
-                            movet = pktool(movet, 1)
-                            print('--> Moves:', movet)
-                            movet = returnmove(movet)
-                            click(movet)
-                            count = 0
-                            time.sleep(0.3)
-                            pwh(timeleft)
-                            break
-                        if option == 'Black':
-                            count += 1
-                            continue
-                    elif count == 3:
-                        put('DONE')
-                        end('restart')
-                        timematch(timeleft)
-                        put('BOARD')
-                        for i in range(len(log)):
-                            if i % 2 == 0:
-                                c = '1'
-                            else:
-                                c = '2'
-                            put(log[i] + ',' + c)
-                        time.sleep(0.1)
-                        put('DONE')
-                        print('Start.')
-                        a = clock()
-                        movet = get()
-                        b = clock()
-                        tl = round(round(b - a, 3) * 1000)
-                        timeleft = timeleft - tl
-                        print('-----------------------------------')
-                        print('Time left:', timeleft / 1000, 'second')
-                        print('-----------------------------------')
-                        tmleft(timeleft)
-                        print('--> Output:', movet)
-                        print('Status: Done')
-                        movet = pktool(movet, 1)
-                        print('--> Moves:', movet)
-                        movet = returnmove(movet)
-                        click(movet)
-                        count = 0
-                        time.sleep(0.3)
-                        pbl(timeleft)
-                        break
-                    else:
-                        # print('--> Moved:', tmp, '-', color)
-                        count += 1
-                        if color == 'Black':
-                            c = '2'
-                        elif color == 'White':
-                            c = '1'
-                        # print('--> Put:', moves + ',' + c)
-                        put(moves + ',' + c)
-            except:
-                continue
     
-    def swap():
+    def swap(timet=0):
         os.system('cls')
         print('\t\t\t\tGomoku bot      ')
         print('\t\t------------------------------------------')
-        print(connect.lic)
+##        print(connect.lic)
         print('About engine:')
         print('- Name:', ea.name)
         print('- Version:', ea.version)
         print('- Author:', ea.author)
         print('- Country:', ea.country)
-        print('- Email:', ea.email)
-        timeleft = int(tinput())
-        print('Timematch:', timeleft, 'seconds')
+        print('- Email:', ea.email)      
+        if ea.name == 'AlphaGomoku':
+##            print('- Support Ponder: Yes')
+            put('PONDER')
+        else:
+            pass
+##            print('- Support Ponder: No')
+        
+        if timet == 0:
+            timeleft = int(tinput())
+        else:
+            timeleft = timet
+##        print('Timematch:', timeleft, 'seconds')
+        a = clock()
+        time.sleep(0.3)
         put('BOARD')
-        openning = opening()
-        print('Len opening:', len(openning))
+        openning = opening()          
+        print('Success!!!')
+##        print(openning)
+##        print('Len opening:', len(openning))
         for i in range(len(openning)):
             tmp = returnpos(openning[i])
             if tmp is None:
                 tmp = guess(openning[i], value)
                 tmp = returnpos(tmp)
-            print(tmp)
+##            print(tmp)
             moves = pktool(tmp, 0)
             openning.pop(i)
             openning.insert(i, moves)
         if len(openning) % 2 != 0:
-            a = clock()
+##            a = clock()
             for i in range(len(openning)):
                 if i % 2 == 0:
                     c = '2'
@@ -409,24 +335,24 @@ def main():
                 time.sleep(0.3)
             put('DONE')            
             movet = get()
-            b = clock()
-            tl = round(round(b - a, 3) * 1000)
-            timeleft = timeleft - tl
-            print('-----------------------------------')
-            print('Time left:', timeleft / 1000, 'second')
-            print('-----------------------------------')
-            tmleft(timeleft)
             print('--> Output:', movet)
-            print('Status: Done')
+##            print('Status: Done')
             movet = pktool(movet, 1)
             print('--> Moves:', movet)
             movet = returnmove(movet)
             click(movet)
             time.sleep(0.5)
-            pwh(timeleft)
+            b = clock()
+            tl = round(round(b - a, 3) * 1000)
+            timeleft = timeleft - tl
+##            print('-----------------------------------')
+            print(chtime(timeleft))
+##            print('-----------------------------------')
+            tmleft(timeleft)
+            pwh(timeleft, openning)
             return
         else:
-            a = clock()
+##            a = clock()
             for i in range(len(openning)):
                 if i % 2 == 0:
                     c = '1'
@@ -436,23 +362,99 @@ def main():
                 time.sleep(0.3)
             put('DONE')            
             movet = get()
-            b = clock()
-            tl = round(round(b - a, 3) * 1000)
-            timeleft = timeleft - tl
-            print('-----------------------------------')
-            print('Time left:', timeleft / 1000, 'second')
-            print('-----------------------------------')
-            tmleft(timeleft)
-            print('--> Output:', movet)
-            print('Status: Done')
+##            b = clock()
+##            tl = round(round(b - a, 3) * 1000)
+##            timeleft = timeleft - tl
+####            print('-----------------------------------')
+##            print(chtime(timeleft))
+####            print('-----------------------------------')
+##            tmleft(timeleft)
+##            print('--> Output:', movet)
+##            print('Status: Done')
             movet = pktool(movet, 1)
             print('--> Moves:', movet)
             movet = returnmove(movet)
             click(movet)
-            time.sleep(0.5)
-            pbl(timeleft)
+            b = clock()
+            tl = round(round(b - a, 3) * 1000)
+            timeleft = timeleft - tl
+##            print('-----------------------------------')
+            print(chtime(timeleft))
+##            print('-----------------------------------')
+            tmleft(timeleft)
+##            time.sleep(0.5)
+            pbl(timeleft, openning)
             return
-    
+    def put_opening():
+        timeleft = int(tinput())
+        put('SWAP2BOARD')
+        put('DONE')
+        lst = get()
+        lst = lst.split(' ')
+        print(lst)
+        for i in lst:
+            movet = pktool(i, 1)
+            movet = returnmove(movet)
+            click(movet)
+            time.sleep(0.3)
+    def balance():
+        timeleft = int(tinput()) // 10
+        a = clock()
+        put('SWAP2BOARD')
+        openning = opening()
+        print('Success!!!')
+        lst = []
+        for i in range(len(openning)):
+            tmp = returnpos(openning[i])
+            if tmp is None:
+                tmp = guess(openning[i], value)
+                tmp = returnpos(tmp)
+            moves = pktool(tmp, 0)
+            put(moves)
+            lst.append(moves)
+            time.sleep(0.3)
+        put('DONE')
+        out = spswap()
+        print('Output:', out)
+        if out == 'SWAP':
+            click((pyautogui.locateCenterOnScreen('PO\\bt_bk.png', confidence=0.7)[0], pyautogui.locateCenterOnScreen('PO\\bt_bk.png', confidence=0.7)[1]))
+            b = clock()
+            tl = round(round(b - a, 3) * 1000)
+            timeleft = timeleft * 10 - tl
+            restart()
+            while True:
+                if keyboard.is_pressed('ctrl+shift+x'):
+                    swap(timeleft)
+                    break
+            return
+        if ' ' not in out:
+            click((pyautogui.locateCenterOnScreen('PO\\bt_wht.png', confidence=0.7)[0], pyautogui.locateCenterOnScreen('PO\\bt_wht.png', confidence=0.7)[1]))
+            time.sleep(0.5)
+            click(returnmove(pktool(out, 1)))
+            b = clock()
+            tl = round(round(b - a, 3) * 1000)
+            timeleft = timeleft * 10 - tl
+            restart()
+            while True:
+                if keyboard.is_pressed('ctrl+shift+x'):
+                    swap(timeleft)
+                    break
+            return
+        out = out.split(' ')
+        for i in out:
+            movet = returnmove(pktool(i, 1))
+            click(movet)
+            time.sleep(0.3)
+        b = clock()
+        tl = round(round(b - a, 3) * 1000)
+        timeleft = timeleft * 10 - tl
+        restart()
+        while True:
+            if keyboard.is_pressed('ctrl+shift+x'):
+                swap(timeleft)
+                break
+        
+            
         
         
     while True:
@@ -460,13 +462,20 @@ def main():
             swap()
         if keyboard.is_pressed('alt+s'):
             os.system('cls')
+            if ea.name == 'AlphaGomoku':
+                put('PONDER stop')
             print('Restart')
             restart()
             if keyboard.is_pressed('ctrl+shift+x'):
                 swap()
+        if keyboard.is_pressed('alt+p'):
+            put_opening()
+        if keyboard.is_pressed('alt+b'):
+            balance()
         if keyboard.is_pressed('esc'):
             end()
-
+        
+            
 
 if '__main__' == __name__:
     main()

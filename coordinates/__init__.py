@@ -1,49 +1,31 @@
-def pktool(move, q):
-    """
-    q = 0 --> PlayOK -> Piskvork \n
-    q = 1 --> Piskvork -> PlayOK
+import os
+import time
 
-    :param move: Move
-    :param q: Option
-    """
-    lst1 = []
-    lst = []
-    char = ["o", "n", "m", "l", "k", "j", "i", "h", "g", "f", "e", "d", "c", "b", "a"]
-    for i in range(0, 15):
-        for j in range(0, 15):
-            k = j
-            output = str(-(i - 14)) + ',' + str(k)
-            lst1.append(output)
-    for i in range(0, 15):
-        for j in range(0, 15):
-            k = j
-            output = char[i] + str(-(k - 15))
-            lst.append(output)
+"""
+h8  ---> 7,7
+7,7 ---> h8
+"""
 
-    def find(a, b):
-        for i in range(len(b)):
-            if a == b[i]:
-                return i
-
-    def returnmove(s):
-        output = 0
-        for i in lst:
-            if s == i:
-                k = find(s, lst)
-                output = lst1[k]
-        return output
-
-    def returnpos(s):
-        output = 0
-        for i in lst1:
-            if s == i:
-                k = find(s, lst1)
-                output = lst[k]
-        return output
-
+def pktool(move,q):
     if q == 0:
-        out = returnmove(move)
-        return out
-    elif q == 1:
-        out = returnpos(move)
-        return out
+        x = move[0]
+        y = move[1:]
+        return str(ord(x)-97)+','+str(15-int(y))
+    if q == 1:
+        x = int(move.split(',')[0])
+        y = int(move.split(',')[1])
+        return str(chr(x+97)) + str(int(15-y))
+
+
+##def test_time(func, *arg):
+##    from time import perf_counter as clock
+##    a = clock()
+##    func(*arg)
+##    pktool(*arg)
+##    b = clock()
+##    print('Runtime: {} sec'.format(round(b-a,2)))
+##
+##    
+##test_time(pktool, 'o1', 0)
+##test_time(pktool1, 'o1', 0)
+##print(pktool('7,7', 1))

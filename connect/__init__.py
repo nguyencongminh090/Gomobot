@@ -2,11 +2,11 @@ import subprocess
 import os
 from license import chk_license
 
-os.system('title Gomobot v0.7')
-print('Check License:')
-lic = chk_license()
-if lic == 'Wrong key!!!' or lic == 'No License!':
-    exit()
+os.system('title Gomobot v0.9')
+##print('Check License:')
+##lic = chk_license()
+##if lic == 'Wrong key!!!' or lic == 'No License!':
+##    exit()
 
 f = open('Log.txt', 'a')
 
@@ -139,6 +139,15 @@ def debug():
         except:
             pass
 
+def spswap():
+    while True:
+        try:
+            text = engine.stdout.readline().strip()
+            if text == 'SWAP' or ',' in text:
+                put('RESTART')
+                return text
+        except:
+            pass
 
 def close():
     f.close()

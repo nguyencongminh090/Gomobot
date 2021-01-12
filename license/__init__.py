@@ -21,7 +21,7 @@ def encrypt(name):
     code = key.encode()
     code = hashlib.md5(code)
     code = code.hexdigest()
-    for _ in tqdm(range(1000)):
+    for _ in tqdm(range(100)):
         code = hashlib.md5(code.encode())
         code = code.hexdigest()
         code = hashlib.sha256(code.encode())

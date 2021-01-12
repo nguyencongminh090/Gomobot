@@ -2,6 +2,7 @@ import subprocess
 import time
 import os
 
+
 try:
     engine = subprocess.Popen('Engine\engine.exe', universal_newlines=True,
                               stdin=subprocess.PIPE, stdout=subprocess.PIPE, bufsize=1)
