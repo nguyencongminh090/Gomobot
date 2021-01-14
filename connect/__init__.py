@@ -59,7 +59,8 @@ def timematch(b=None):
         b = str(b)
     f.writelines('______Process started______\n')
     check()
-    put('INFO max_memory 2146435072')
+    ##put('INFO max_memory 2146435072')
+    put('INFO max_memory 1073741824')
     put('INFO timeout_match ' + b)
     put('INFO timeout_turn ' + b)
     put('INFO game_type 0')
@@ -92,11 +93,11 @@ def playw(inp):
     :return:
     """
     put('TURN ' + inp)
-    a = getms()
-    if 'MESSAGE' not in a:
-        return a, 0
-    ev = a.split(' ')[4]
-    return str(get()), ev
+##    a = getms()
+##    if 'MESSAGE' not in a:
+##        return a, 0
+##    ev = a.split(' ')[4]
+    return str(get())
 
 
 def playb(inp):
@@ -106,11 +107,11 @@ def playb(inp):
     :return:
     """
     put('TURN ' + inp)
-    a = getms()
-    if 'MESSAGE' not in a:
-        return a, 0
-    ev = a.split(' ')[4]
-    return str(get()), ev
+##    a = getms()
+##    if 'MESSAGE' not in a:
+##        return a, 0
+##    ev = a.split(' ')[4]
+    return str(get())
 
 
 def timeleft(a):

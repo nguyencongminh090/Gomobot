@@ -8,6 +8,7 @@ import connect
 import engine_author as ea
 from connect import *
 from connect import timeleft as tmleft
+from config import make_cfg
 from coordinates import *
 from plugin import *
 
@@ -61,8 +62,20 @@ def main():
             break
         except:
             continue
-    kcx = 41.6
-    kcy = 41.6
+##    kcx = 41.6
+##    kcy = 41.6
+    try:
+        f = open('config', 'r')
+        kcx = kcy = float(f.readline())
+        f.close()
+    except:
+        print("Create Config file...")
+        make_cfg()
+        f = open('config', 'r')
+        kcx = kcy = float(f.readline())
+        f.close()
+    print('kcx:', kcx)
+    print('kcy:', kcy)
     os.system('cls')
     print('\t\t\t\tGomoku bot 0.9     ')
     print('\t\t------------------------------------------')
@@ -176,7 +189,7 @@ def main():
 ##                      b = clock()
 ##                    if ev == '-M0':
 ##                        break
-                    click(returnmove(pktool(movet[0], 1)))
+                    click(returnmove(pktool(movet, 1)))
 ##                    if ev == '+M1':
 ##                            break
                     b = clock()
@@ -197,7 +210,7 @@ def main():
 ####                        b = clock()
 ##                        if ev == '-M0':
 ##                            break
-##                        movet = pktool(movet[0], 1)
+##                        movet = pktool(movet, 1)
 ##                        moveto = returnmove(movet)
 ##                        click(moveto)
 ##                        if ev == '+M1':
@@ -245,7 +258,7 @@ def main():
 ##                        print('--> Evaluation:', ev)
 ##                    if ev == '-M0':
 ##                            break
-                    click(returnmove(pktool(movet[0], 1)))
+                    click(returnmove(pktool(movet, 1)))
 ##                    if ev == '+M1':
 ##                        break
                         ##print('Engine move:',movet)
@@ -266,7 +279,7 @@ def main():
 ####                        print('--> Evaluation:', ev)
 ##                        if ev == '-M0':
 ##                            break
-##                        movet = pktool(movet[0], 1)
+##                        movet = pktool(movet, 1)
 ##                        moveto = returnmove(movet)
 ##                        click(moveto)
 ##                        if ev == '+M1':
