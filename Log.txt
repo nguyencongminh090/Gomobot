@@ -9879,3 +9879,2852 @@ TURN 11,9
 14,11
 INFO time_left 900
 END
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+BOARD
+1,12,2
+2,13,1
+4,11,2
+DONE
+4,9
+INFO time_left 51334
+TURN 5,10
+6,10
+INFO time_left 48438
+TURN 6,9
+7,8
+INFO time_left 47528
+TURN 7,9
+8,9
+INFO time_left 44617
+TURN 7,10
+6,7
+INFO time_left 44336
+TURN 9,10
+4,8
+INFO time_left 44148
+TURN 10,9
+5,8
+INFO time_left 43962
+TURN 6,8
+3,10
+INFO time_left 43763
+TURN 2,11
+7,6
+INFO time_left 43563
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+BOARD
+7,7,1
+8,8,2
+6,8,1
+8,6,2
+DONE
+8,9
+INFO time_left 54773
+TURN 9,7
+7,9
+INFO time_left 54123
+TURN 7,8
+6,9
+INFO time_left 53937
+TURN 5,9
+6,7
+INFO time_left 53750
+TURN 6,10
+5,7
+INFO time_left 53556
+TURN 8,7
+4,6
+INFO time_left 53373
+TURN 8,10
+3,5
+INFO time_left 53169
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+SWAP2BOARD
+DONE
+14,7 0,7 14,8
+BOARD
+14,7,2
+0,7,1
+14,8,2
+7,7,1
+8,8,2
+DONE
+6,9
+INFO time_left 54635
+TURN 6,8
+5,8
+INFO time_left 51451
+TURN 6,7
+7,10
+INFO time_left 49408
+TURN 4,7
+5,10
+INFO time_left 48463
+TURN 5,9
+7,8
+INFO time_left 48275
+TURN 8,7
+7,9
+INFO time_left 48093
+TURN 7,11
+7,6
+INFO time_left 47905
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+BOARD
+7,7,1
+8,8,2
+6,8,1
+8,6,2
+DONE
+8,9
+INFO time_left 54759
+TURN 9,7
+7,9
+INFO time_left 54114
+TURN 7,8
+6,9
+INFO time_left 53924
+TURN 5,9
+6,7
+INFO time_left 53739
+TURN 5,7
+6,6
+INFO time_left 53557
+TURN 6,5
+6,10
+INFO time_left 53373
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+SWAP2BOARD
+DONE
+14,7 0,7 14,8
+BOARD
+14,7,2
+0,7,1
+14,8,2
+10,8,1
+7,7,2
+DONE
+9,9
+INFO time_left 52338
+TURN 8,10
+9,8
+INFO time_left 51222
+TURN 8,8
+9,7
+INFO time_left 50871
+TURN 9,10
+8,6
+INFO time_left 50670
+TURN 7,5
+7,6
+INFO time_left 50469
+TURN 8,7
+9,6
+INFO time_left 50264
+TURN 9,5
+10,6
+INFO time_left 50046
+TURN 6,6
+11,6
+INFO time_left 49863
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+BOARD
+12,9,1
+11,9,2
+9,11,1
+8,10,2
+DONE
+9,10
+INFO time_left 55347
+TURN 9,9
+10,8
+INFO time_left 53924
+TURN 11,11
+10,9
+INFO time_left 51771
+TURN 11,8
+11,10
+INFO time_left 50888
+TURN 10,11
+10,6
+INFO time_left 48835
+TURN 10,7
+8,7
+INFO time_left 47618
+TURN 9,8
+11,6
+INFO time_left 46665
+TURN 8,8
+7,7
+INFO time_left 45909
+TURN 9,6
+9,5
+INFO time_left 45145
+TURN 8,4
+8,5
+INFO time_left 43983
+TURN 7,5
+10,5
+INFO time_left 43554
+TURN 9,4
+11,5
+INFO time_left 43313
+TURN 12,5
+11,3
+INFO time_left 43112
+TURN 8,14
+11,4
+INFO time_left 42905
+TURN 6,14
+11,2
+INFO time_left 42722
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+BOARD
+6,8,1
+7,8,2
+8,8,1
+7,7,2
+DONE
+6,9
+INFO time_left 53932
+TURN 6,10
+7,6
+INFO time_left 50288
+TURN 5,6
+8,9
+INFO time_left 48339
+TURN 8,7
+5,7
+INFO time_left 47556
+TURN 7,9
+7,10
+INFO time_left 46389
+TURN 8,11
+10,7
+INFO time_left 44791
+TURN 9,8
+4,8
+INFO time_left 43133
+TURN 6,6
+4,9
+INFO time_left 42607
+TURN 4,7
+3,9
+INFO time_left 42386
+TURN 5,9
+2,10
+INFO time_left 42172
+TURN 1,11
+3,8
+INFO time_left 41992
+TURN 5,8
+3,11
+INFO time_left 41800
+TURN 3,10
+4,12
+INFO time_left 41614
+TURN 5,13
+4,11
+INFO time_left 41421
+TURN 4,10
+6,11
+INFO time_left 41241
+TURN 5,11
+5,10
+INFO time_left 41059
+TURN 7,12
+2,7
+INFO time_left 40867
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+BOARD
+5,6,1
+6,8,2
+6,6,1
+8,8,2
+7,7,1
+7,9,2
+DONE
+5,7
+INFO time_left 56002
+TURN 5,8
+4,8
+INFO time_left 55807
+TURN 7,8
+9,8
+INFO time_left 55599
+TURN 3,9
+4,6
+INFO time_left 55393
+TURN 3,6
+4,7
+INFO time_left 55205
+TURN 4,5
+6,7
+INFO time_left 55021
+TURN 3,7
+8,7
+INFO time_left 54835
+TURN 4,1
+0,0
+INFO time_left 54635
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+SWAP2BOARD
+DONE
+12,6 12,7 12,8
+BOARD
+12,6,2
+12,7,1
+12,8,2
+DONE
+9,6
+INFO time_left 49411
+TURN 10,4
+11,5
+INFO time_left 47930
+TURN 11,7
+10,8
+INFO time_left 45943
+TURN 9,5
+10,6
+INFO time_left 45136
+TURN 8,6
+7,7
+INFO time_left 44378
+TURN 8,8
+10,9
+INFO time_left 43820
+TURN 10,7
+9,10
+INFO time_left 43321
+TURN 11,8
+8,9
+INFO time_left 43104
+TURN 10,11
+8,7
+INFO time_left 42847
+TURN 11,10
+11,9
+INFO time_left 42655
+TURN 9,9
+6,7
+INFO time_left 42474
+TURN 5,7
+7,8
+INFO time_left 42275
+TURN 5,11
+5,6
+INFO time_left 42092
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+SWAP2BOARD
+DONE
+14,7 0,7 14,8
+BOARD
+14,7,2
+0,7,1
+14,8,2
+10,8,1
+10,7,2
+DONE
+8,7
+INFO time_left 52621
+TURN 11,9
+9,6
+INFO time_left 51224
+TURN 9,8
+10,5
+INFO time_left 49455
+TURN 7,8
+11,6
+INFO time_left 48436
+TURN 12,7
+11,7
+INFO time_left 48248
+TURN 12,6
+11,4
+INFO time_left 48055
+TURN 12,8
+12,3
+INFO time_left 47845
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+BOARD
+7,7,1
+8,6,2
+6,8,1
+7,6,2
+DONE
+5,7
+INFO time_left 55154
+TURN 8,7
+7,9
+INFO time_left 53537
+TURN 8,10
+6,6
+INFO time_left 52097
+TURN 6,5
+9,8
+INFO time_left 50689
+TURN 5,4
+4,3
+INFO time_left 50501
+TURN 8,8
+8,9
+INFO time_left 50232
+TURN 8,5
+8,4
+INFO time_left 50029
+TURN 7,5
+5,5
+INFO time_left 49778
+TURN 10,5
+9,5
+INFO time_left 49582
+TURN 9,6
+4,6
+INFO time_left 49371
+TURN 3,5
+4,4
+INFO time_left 49189
+TURN 10,6
+3,3
+INFO time_left 49003
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+SWAP2BOARD
+DONE
+12,6 12,7 12,8
+BOARD
+12,6,2
+12,7,1
+12,8,2
+DONE
+10,7
+INFO time_left 49258
+TURN 9,7
+11,7
+INFO time_left 48401
+TURN 10,6
+8,8
+INFO time_left 46428
+TURN 9,6
+11,6
+INFO time_left 45732
+TURN 9,8
+9,5
+INFO time_left 45087
+TURN 10,5
+11,4
+INFO time_left 41255
+TURN 11,5
+10,9
+INFO time_left 38876
+TURN 13,7
+10,4
+INFO time_left 38238
+TURN 11,9
+10,10
+INFO time_left 36980
+TURN 10,8
+8,6
+INFO time_left 36031
+TURN 12,10
+13,11
+INFO time_left 35833
+TURN 11,8
+13,8
+INFO time_left 35643
+TURN 7,7
+12,4
+INFO time_left 35145
+TURN 9,9
+9,10
+INFO time_left 34942
+TURN 9,4
+11,3
+INFO time_left 34730
+TURN 12,2
+13,4
+INFO time_left 34539
+TURN 14,4
+12,5
+INFO time_left 34352
+TURN 14,3
+10,3
+INFO time_left 34151
+TURN 9,2
+9,3
+INFO time_left 33968
+TURN 8,3
+13,3
+INFO time_left 33783
+TURN 12,3
+13,6
+INFO time_left 33569
+TURN 14,7
+13,5
+INFO time_left 33376
+TURN 13,2
+10,2
+INFO time_left 33164
+TURN 14,6
+9,1
+INFO time_left 32978
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+BOARD
+9,5,1
+9,7,2
+7,7,1
+8,8,2
+DONE
+8,6
+INFO time_left 55985
+TURN 6,8
+10,6
+INFO time_left 55802
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+SWAP2BOARD
+DONE
+12,6 12,7 12,8
+BOARD
+12,6,1
+12,7,2
+12,8,1
+10,6,2
+DONE
+10,4
+INFO time_left 54657
+TURN 11,5
+9,7
+INFO time_left 52621
+TURN 8,6
+9,8
+INFO time_left 47674
+TURN 9,9
+9,6
+INFO time_left 42227
+TURN 9,4
+11,8
+INFO time_left 41621
+TURN 10,8
+10,7
+INFO time_left 40266
+TURN 8,5
+8,7
+INFO time_left 39945
+TURN 7,7
+11,6
+INFO time_left 39746
+TURN 12,5
+11,10
+INFO time_left 39552
+TURN 10,5
+9,5
+INFO time_left 39368
+TURN 10,9
+11,9
+INFO time_left 39175
+TURN 11,7
+10,10
+INFO time_left 38991
+TURN 4,2
+9,11
+INFO time_left 38810
+TURN 3,11
+13,7
+INFO time_left 38573
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+BOARD
+8,7,1
+9,8,2
+10,7,1
+9,7,2
+DONE
+9,5
+INFO time_left 54736
+TURN 8,5
+9,9
+INFO time_left 53249
+TURN 10,6
+7,9
+INFO time_left 51807
+TURN 6,9
+8,10
+INFO time_left 50792
+TURN 7,11
+8,8
+INFO time_left 50594
+TURN 8,9
+6,8
+INFO time_left 50405
+TURN 13,14
+5,7
+INFO time_left 50197
+TURN 9,14
+9,11
+INFO time_left 49994
+TURN 4,6
+0,0
+INFO time_left 49821
+TURN 3,4
+DEBUG make move [0,0] = 1024
+END
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 120000
+INFO timeout_turn 120000
+INFO game_type 0
+INFO rule 1
+INFO time_left 120000
+END
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+BOARD
+4,4,1
+4,5,2
+9,4,1
+8,5,2
+6,5,1
+6,6,2
+3,5,1
+3,6,2
+2,5,1
+4,6,2
+7,5,1
+7,6,2
+5,6,1
+5,7,2
+8,6,1
+2,7,2
+6,7,1
+4,7,2
+7,7,1
+6,8,2
+1,8,1
+4,8,2
+3,8,1
+5,8,2
+4,9,1
+6,9,2
+7,10,1
+7,9,2
+8,10,1
+2,8,2
+DONE
+2,6
+INFO time_left 47594
+TURN 3,9
+2,10
+INFO time_left 47417
+TURN 1,7
+3,7
+INFO time_left 47237
+TURN 4,10
+0,6
+INFO time_left 46981
+TURN 5,11
+0,0
+INFO time_left 46745
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+BOARD
+7,7,2
+6,6,1
+6,8,2
+8,6,1
+9,9,2
+6,7,1
+9,6,2
+DONE
+7,6
+INFO time_left 52046
+TURN 5,8
+4,8
+INFO time_left 50447
+TURN 5,7
+7,9
+INFO time_left 47928
+TURN 5,6
+5,9
+INFO time_left 47061
+TURN 9,8
+9,7
+INFO time_left 46291
+TURN 8,8
+7,8
+INFO time_left 46106
+TURN 6,10
+6,4
+INFO time_left 43862
+TURN 7,5
+6,9
+INFO time_left 42361
+TURN 4,9
+5,5
+INFO time_left 39890
+TURN 6,3
+7,4
+INFO time_left 37884
+TURN 8,4
+4,4
+INFO time_left 36328
+TURN 3,4
+4,2
+INFO time_left 35838
+TURN 4,6
+3,3
+INFO time_left 35641
+TURN 2,2
+2,4
+INFO time_left 35458
+TURN 1,5
+5,1
+INFO time_left 35267
+TURN 6,0
+4,1
+INFO time_left 35082
+TURN 4,3
+5,3
+INFO time_left 34900
+TURN 3,1
+6,2
+INFO time_left 34714
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+BOARD
+7,7,1
+8,6,2
+DONE
+8,5
+INFO time_left 55006
+TURN 7,6
+6,6
+INFO time_left 52600
+TURN 8,8
+6,5
+INFO time_left 52035
+TURN 7,5
+6,4
+INFO time_left 51818
+TURN 6,3
+6,7
+INFO time_left 51620
+TURN 7,8
+6,8
+INFO time_left 51441
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+BOARD
+7,7,2
+6,7,1
+5,8,2
+DONE
+5,6
+INFO time_left 49432
+TURN 7,8
+6,8
+INFO time_left 47875
+TURN 6,9
+7,9
+INFO time_left 44604
+TURN 5,10
+4,11
+INFO time_left 43923
+TURN 8,10
+8,11
+INFO time_left 42597
+TURN 7,10
+6,10
+INFO time_left 40440
+TURN 8,8
+9,9
+INFO time_left 38809
+TURN 8,7
+9,6
+INFO time_left 38623
+TURN 9,8
+8,6
+INFO time_left 34879
+TURN 10,9
+7,6
+INFO time_left 34052
+TURN 6,6
+10,7
+INFO time_left 33465
+TURN 6,11
+10,4
+INFO time_left 30236
+TURN 10,6
+8,5
+INFO time_left 27645
+TURN 11,8
+10,8
+INFO time_left 27457
+TURN 9,4
+4,7
+INFO time_left 26781
+TURN 5,12
+8,9
+INFO time_left 26584
+TURN 6,5
+11,9
+INFO time_left 25500
+TURN 9,7
+3,7
+INFO time_left 24278
+TURN 7,12
+4,9
+INFO time_left 23212
+TURN 4,8
+5,7
+INFO time_left 22481
+TURN 2,7
+5,4
+INFO time_left 21901
+TURN 4,13
+3,14
+INFO time_left 21715
+TURN 4,6
+6,3
+INFO time_left 19962
+TURN 7,4
+4,5
+INFO time_left 19482
+TURN 5,11
+5,9
+INFO time_left 19298
+TURN 5,13
+5,14
+INFO time_left 19116
+TURN 8,13
+9,14
+INFO time_left 18937
+TURN 7,2
+3,4
+INFO time_left 18510
+TURN 2,3
+3,5
+INFO time_left 18107
+TURN 7,13
+6,13
+INFO time_left 17926
+TURN 3,6
+4,4
+INFO time_left 17715
+TURN 2,4
+5,3
+INFO time_left 17534
+TURN 6,2
+5,5
+INFO time_left 17352
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+BOARD
+6,5,1
+8,6,2
+9,6,1
+8,7,2
+7,7,1
+9,9,2
+8,8,1
+8,5,2
+DONE
+6,4
+INFO time_left 53015
+TURN 6,6
+8,3
+INFO time_left 50145
+TURN 7,4
+4,5
+INFO time_left 48761
+TURN 6,3
+7,9
+INFO time_left 47023
+TURN 7,8
+4,6
+INFO time_left 46472
+TURN 3,7
+3,5
+INFO time_left 46274
+TURN 5,5
+4,4
+INFO time_left 46085
+TURN 5,10
+4,3
+INFO time_left 45891
+TURN 11,13
+4,2
+INFO time_left 45711
+END
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+SWAP2BOARD
+DONE
+7,7 10,7 12,7
+BOARD
+7,7,2
+10,7,1
+12,7,2
+DONE
+9,6
+INFO time_left 53717
+TURN 8,5
+9,8
+INFO time_left 52996
+TURN 11,6
+10,5
+INFO time_left 52276
+TURN 10,8
+11,4
+INFO time_left 51010
+TURN 12,3
+10,4
+INFO time_left 50687
+TURN 9,4
+10,3
+INFO time_left 50498
+TURN 10,2
+10,6
+INFO time_left 50323
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+END
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 30000
+INFO timeout_turn 30000
+INFO game_type 0
+INFO rule 1
+INFO time_left 30000
+BOARD
+5,13,2
+7,13,1
+8,13,2
+DONE
+7,10
+INFO time_left 25559
+TURN 6,10
+7,11
+INFO time_left 24280
+TURN 6,12
+7,12
+INFO time_left 24101
+TURN 14,13
+7,9
+INFO time_left 23921
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 30000
+INFO timeout_turn 30000
+INFO game_type 0
+INFO rule 1
+INFO time_left 30000
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 30000
+INFO timeout_turn 30000
+INFO game_type 0
+INFO rule 1
+INFO time_left 30000
+SWAP2BOARD
+DONE
+12,6 12,7 12,8
+BOARD
+12,6,2
+12,7,1
+12,8,2
+DONE
+10,7
+INFO time_left 25215
+TURN 9,7
+11,7
+INFO time_left 24362
+TURN 11,6
+9,6
+INFO time_left 22485
+TURN 8,5
+10,9
+INFO time_left 21568
+TURN 11,8
+13,7
+INFO time_left 20649
+TURN 14,7
+10,8
+INFO time_left 19859
+TURN 10,10
+7,6
+INFO time_left 17891
+TURN 10,6
+7,8
+INFO time_left 17039
+TURN 8,7
+7,7
+INFO time_left 16641
+TURN 7,9
+8,8
+INFO time_left 16245
+TURN 6,6
+6,8
+INFO time_left 15868
+TURN 9,8
+4,8
+INFO time_left 15451
+TURN 5,8
+4,7
+INFO time_left 15033
+TURN 5,9
+5,6
+INFO time_left 14850
+TURN 8,3
+4,5
+INFO time_left 14668
+TURN 13,14
+4,6
+INFO time_left 14489
+TURN 13,13
+4,4
+INFO time_left 14312
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 30000
+INFO timeout_turn 30000
+INFO game_type 0
+INFO rule 1
+INFO time_left 30000
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 30000
+INFO timeout_turn 30000
+INFO game_type 0
+INFO rule 1
+INFO time_left 30000
+END
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+BOARD
+1,3,1
+2,4,2
+2,6,1
+5,6,2
+DONE
+5,5
+INFO time_left 53003
+TURN 4,4
+3,4
+INFO time_left 51531
+TURN 4,7
+6,5
+INFO time_left 50782
+TURN 5,7
+4,3
+INFO time_left 49385
+TURN 3,3
+4,5
+INFO time_left 49165
+TURN 3,5
+5,2
+INFO time_left 48989
+TURN 6,1
+6,3
+INFO time_left 48816
+TURN 8,5
+5,4
+INFO time_left 48634
+TURN 7,6
+3,6
+INFO time_left 48459
+TURN 11,3
+2,7
+INFO time_left 48282
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+SWAP2BOARD
+DONE
+12,6 12,7 12,8
+BOARD
+12,6,2
+12,7,1
+12,8,2
+DONE
+10,7
+INFO time_left 49862
+TURN 9,7
+11,7
+INFO time_left 49100
+TURN 11,6
+9,6
+INFO time_left 46852
+TURN 8,5
+10,9
+INFO time_left 46113
+TURN 11,8
+10,8
+INFO time_left 43214
+TURN 10,10
+13,7
+INFO time_left 42130
+TURN 14,7
+7,7
+INFO time_left 40732
+TURN 11,5
+7,9
+INFO time_left 38591
+TURN 10,5
+9,5
+INFO time_left 36429
+TURN 10,6
+12,4
+INFO time_left 35755
+TURN 10,3
+10,4
+INFO time_left 35099
+TURN 13,6
+14,6
+INFO time_left 34922
+TURN 11,4
+12,5
+INFO time_left 34741
+TURN 11,2
+11,3
+INFO time_left 34560
+TURN 8,6
+9,4
+INFO time_left 32993
+TURN 8,9
+7,8
+INFO time_left 31766
+TURN 7,10
+7,5
+INFO time_left 31584
+TURN 7,6
+9,3
+INFO time_left 31404
+TURN 9,2
+10,2
+INFO time_left 31227
+TURN 8,1
+13,5
+INFO time_left 31050
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+BOARD
+11,5,1
+12,6,2
+13,7,1
+9,7,2
+DONE
+10,7
+INFO time_left 54941
+TURN 11,8
+9,8
+INFO time_left 51357
+TURN 8,9
+10,5
+INFO time_left 50566
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+SWAP2BOARD
+DONE
+12,6 12,7 12,8
+BOARD
+12,0,1
+11,0,2
+12,6,1
+12,7,2
+12,8,1
+9,8,2
+DONE
+9,9
+INFO time_left 51901
+TURN 10,9
+11,7
+INFO time_left 50319
+TURN 10,8
+10,6
+INFO time_left 49440
+TURN 9,5
+11,6
+INFO time_left 46130
+TURN 13,6
+11,8
+INFO time_left 45467
+TURN 11,9
+8,7
+INFO time_left 43929
+TURN 9,6
+9,7
+INFO time_left 43183
+TURN 11,5
+7,7
+INFO time_left 42064
+TURN 10,7
+7,9
+INFO time_left 41520
+TURN 10,10
+10,11
+INFO time_left 41338
+TURN 5,7
+8,9
+INFO time_left 41150
+TURN 8,8
+7,8
+INFO time_left 40977
+TURN 11,4
+7,6
+INFO time_left 40792
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+BOARD
+11,6,1
+12,7,2
+13,6,1
+10,6,2
+DONE
+10,7
+INFO time_left 52771
+TURN 9,8
+9,5
+INFO time_left 50900
+TURN 12,5
+10,4
+INFO time_left 49214
+TURN 12,4
+12,6
+INFO time_left 48423
+TURN 11,5
+9,7
+INFO time_left 47446
+TURN 13,3
+14,2
+INFO time_left 47269
+TURN 7,7
+7,4
+INFO time_left 46532
+TURN 9,4
+8,5
+INFO time_left 45768
+TURN 9,6
+6,5
+INFO time_left 45214
+TURN 7,5
+8,3
+INFO time_left 44967
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+SWAP2BOARD
+DONE
+7,7 10,7 12,7
+BOARD
+7,7,2
+10,7,1
+12,7,2
+DONE
+9,6
+INFO time_left 54208
+TURN 10,9
+11,8
+INFO time_left 52713
+TURN 12,9
+10,6
+INFO time_left 51384
+TURN 12,6
+12,8
+INFO time_left 50977
+TURN 9,9
+11,9
+INFO time_left 50798
+TURN 11,7
+10,8
+INFO time_left 50622
+TURN 9,8
+8,6
+INFO time_left 50439
+TURN 12,5
+9,7
+INFO time_left 50264
+TURN 6,5
+7,5
+INFO time_left 50088
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+BOARD
+1,12,2
+4,9,1
+6,13,2
+2,13,1
+4,8,2
+DONE
+6,9
+INFO time_left 49730
+TURN 7,11
+5,9
+INFO time_left 49185
+TURN 7,9
+5,10
+INFO time_left 48994
+TURN 4,11
+3,9
+INFO time_left 48791
+TURN 2,9
+3,8
+INFO time_left 48588
+TURN 6,11
+5,11
+INFO time_left 48391
+TURN 5,12
+3,10
+INFO time_left 48195
+TURN 7,10
+3,7
+INFO time_left 47981
+TURN 8,9
+3,11
+INFO time_left 47793
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+BOARD
+12,7,1
+12,11,2
+13,13,1
+10,9,2
+DONE
+11,10
+INFO time_left 54142
+TURN 9,11
+10,11
+INFO time_left 52410
+TURN 8,10
+12,9
+INFO time_left 51458
+TURN 9,12
+12,8
+INFO time_left 51244
+TURN 12,6
+11,8
+INFO time_left 51028
+TURN 10,8
+11,7
+INFO time_left 50837
+TURN 11,9
+10,7
+INFO time_left 50645
+TURN 12,10
+14,7
+INFO time_left 50458
+TURN 13,11
+13,7
+INFO time_left 50276
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+BOARD
+1,12,1
+2,13,2
+6,13,1
+4,9,2
+DONE
+4,10
+INFO time_left 52126
+TURN 6,9
+5,11
+INFO time_left 50941
+TURN 6,12
+5,9
+INFO time_left 47440
+TURN 5,10
+3,11
+INFO time_left 46694
+TURN 2,12
+4,11
+INFO time_left 45320
+TURN 6,11
+6,8
+INFO time_left 43899
+TURN 7,7
+2,11
+INFO time_left 42062
+TURN 1,11
+3,8
+INFO time_left 41307
+TURN 4,8
+3,10
+INFO time_left 41108
+TURN 7,12
+8,13
+INFO time_left 40910
+TURN 4,12
+3,9
+INFO time_left 40719
+TURN 3,12
+3,7
+INFO time_left 40534
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+BOARD
+7,14,1
+7,0,2
+8,14,1
+7,12,2
+DONE
+7,9
+INFO time_left 53121
+TURN 5,10
+6,11
+INFO time_left 51113
+TURN 5,12
+6,10
+INFO time_left 48477
+TURN 6,12
+8,12
+INFO time_left 47626
+TURN 7,11
+8,10
+INFO time_left 46466
+TURN 5,11
+5,9
+INFO time_left 45734
+TURN 8,11
+6,8
+INFO time_left 45528
+TURN 5,14
+5,13
+INFO time_left 45340
+TURN 9,10
+6,13
+INFO time_left 45149
+TURN 11,8
+10,9
+INFO time_left 44956
+TURN 9,11
+6,9
+INFO time_left 44766
+TURN 6,7
+4,9
+INFO time_left 44536
+TURN 10,11
+3,9
+INFO time_left 44321
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+BOARD
+1,12,1
+2,13,2
+6,13,1
+4,8,2
+DONE
+6,11
+INFO time_left 53616
+TURN 4,9
+7,10
+INFO time_left 52253
+TURN 6,9
+5,12
+INFO time_left 51671
+TURN 8,9
+4,11
+INFO time_left 51436
+TURN 2,9
+5,9
+INFO time_left 51243
+TURN 4,7
+4,10
+INFO time_left 51042
+TURN 4,6
+4,5
+INFO time_left 50817
+TURN 5,8
+3,11
+INFO time_left 50622
+TURN 2,5
+3,6
+INFO time_left 50393
+TURN 5,11
+6,8
+INFO time_left 50207
+TURN 7,7
+2,12
+INFO time_left 49994
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+BOARD
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+BOARD
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 30000
+INFO timeout_turn 30000
+INFO game_type 0
+INFO rule 1
+INFO time_left 30000
+BOARD
+14,0,2
+14,1,1
+14,2,2
+DONE
+11,4
+INFO time_left 26255
+TURN 0,0
+10,5
+INFO time_left 24998
+TURN 14,14
+10,3
+INFO time_left 24714
+TURN 0,14
+11,5
+INFO time_left 24443
+TURN 0,6
+12,5
+INFO time_left 24253
+TURN 14,6
+13,5
+INFO time_left 24062
+TURN 8,8
+9,5
+INFO time_left 23811
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 30000
+INFO timeout_turn 30000
+INFO game_type 0
+INFO rule 1
+INFO time_left 30000
+BOARD
+1,12,2
+4,9,1
+6,13,2
+2,13,1
+5,10,2
+DONE
+6,8
+INFO time_left 23031
+TURN 5,11
+5,9
+INFO time_left 22199
+TURN 6,9
+4,10
+INFO time_left 21349
+TURN 3,11
+4,11
+INFO time_left 20037
+TURN 4,8
+7,6
+INFO time_left 19356
+TURN 3,10
+7,7
+INFO time_left 19001
+TURN 8,6
+7,8
+INFO time_left 18797
+TURN 7,5
+5,7
+INFO time_left 18575
+TURN 7,9
+6,7
+INFO time_left 18364
+TURN 8,7
+5,6
+INFO time_left 18178
+TURN 8,9
+5,8
+INFO time_left 17986
+TURN 5,5
+8,5
+INFO time_left 17787
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 30000
+INFO timeout_turn 30000
+INFO game_type 0
+INFO rule 1
+INFO time_left 30000
+BOARD
+2,11,1
+3,11,2
+4,12,1
+4,9,2
+DONE
+5,10
+INFO time_left 25334
+TURN 6,10
+6,9
+INFO time_left 23999
+TURN 3,12
+4,8
+INFO time_left 22622
+TURN 3,9
+3,10
+INFO time_left 22116
+TURN 7,8
+2,9
+INFO time_left 21190
+TURN 5,8
+2,8
+INFO time_left 20617
+TURN 2,10
+1,8
+INFO time_left 20386
+TURN 4,11
+2,6
+INFO time_left 20188
+TURN 3,7
+3,6
+INFO time_left 19983
+TURN 11,13
+2,7
+INFO time_left 19789
+TURN 12,12
+2,5
+INFO time_left 19603
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 30000
+INFO timeout_turn 30000
+INFO game_type 0
+INFO rule 1
+INFO time_left 30000
+SWAP2BOARD
+DONE
+12,6 12,7 12,8
+BOARD
+12,6,2
+12,7,1
+12,8,2
+DONE
+10,7
+INFO time_left 24932
+TURN 11,9
+11,7
+INFO time_left 23986
+TURN 13,7
+10,10
+INFO time_left 22955
+TURN 9,10
+10,5
+INFO time_left 22315
+TURN 13,8
+11,4
+INFO time_left 22101
+TURN 9,6
+11,6
+INFO time_left 21910
+TURN 12,13
+11,5
+INFO time_left 21714
+TURN 13,13
+11,3
+INFO time_left 21522
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 30000
+INFO timeout_turn 30000
+INFO game_type 0
+INFO rule 1
+INFO time_left 30000
+BOARD
+1,12,1
+2,13,2
+6,13,1
+3,10,2
+DONE
+6,10
+INFO time_left 23593
+TURN 6,11
+5,10
+INFO time_left 22140
+TURN 7,10
+8,9
+INFO time_left 21321
+TURN 7,8
+7,9
+INFO time_left 20059
+TURN 8,8
+5,9
+INFO time_left 19476
+TURN 6,9
+4,7
+INFO time_left 18925
+TURN 4,8
+5,7
+INFO time_left 18728
+TURN 5,8
+6,8
+INFO time_left 18525
+TURN 4,6
+7,7
+INFO time_left 18284
+TURN 12,0
+4,10
+INFO time_left 18084
+TURN 10,0
+8,6
+INFO time_left 17900
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 30000
+INFO timeout_turn 30000
+INFO game_type 0
+INFO rule 1
+INFO time_left 30000
+BOARD
+6,12,2
+6,10,1
+8,12,2
+7,12,1
+7,10,2
+DONE
+9,9
+INFO time_left 25087
+TURN 8,8
+8,7
+INFO time_left 22422
+TURN 9,8
+8,9
+INFO time_left 20405
+TURN 7,9
+10,8
+INFO time_left 19285
+TURN 11,7
+6,7
+INFO time_left 18888
+TURN 7,8
+7,7
+INFO time_left 18373
+TURN 9,7
+6,8
+INFO time_left 17934
+TURN 6,9
+4,10
+INFO time_left 17732
+TURN 5,9
+4,7
+INFO time_left 17532
+TURN 5,7
+4,9
+INFO time_left 17323
+TURN 4,8
+5,10
+INFO time_left 17121
+TURN 6,11
+3,10
+INFO time_left 16923
+TURN 2,10
+5,8
+INFO time_left 16729
+TURN 7,6
+2,11
+INFO time_left 16540
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 30000
+INFO timeout_turn 30000
+INFO game_type 0
+INFO rule 1
+INFO time_left 30000
+SWAP2BOARD
+DONE
+12,6 12,7 12,8
+BOARD
+12,6,1
+12,7,2
+12,8,1
+9,8,2
+DONE
+10,7
+INFO time_left 24857
+TURN 9,6
+9,5
+INFO time_left 23724
+TURN 7,6
+10,6
+INFO time_left 23466
+TURN 11,7
+10,4
+INFO time_left 23238
+TURN 10,5
+11,5
+INFO time_left 23040
+TURN 9,3
+11,9
+INFO time_left 22746
+TURN 13,7
+9,7
+INFO time_left 22554
+TURN 8,8
+8,6
+INFO time_left 22359
+TURN 10,8
+11,3
+INFO time_left 22159
+TURN 12,2
+7,7
+INFO time_left 21967
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 30000
+INFO timeout_turn 30000
+INFO game_type 0
+INFO rule 1
+INFO time_left 30000
+BOARD
+5,12,1
+7,12,2
+9,12,1
+7,10,2
+DONE
+7,11
+INFO time_left 25935
+TURN 9,10
+10,9
+INFO time_left 24607
+TURN 9,8
+10,10
+INFO time_left 22918
+TURN 10,11
+8,9
+INFO time_left 22130
+TURN 9,9
+9,7
+INFO time_left 21570
+TURN 8,6
+4,11
+INFO time_left 20071
+TURN 5,10
+6,10
+INFO time_left 19559
+TURN 5,11
+5,9
+INFO time_left 19106
+TURN 4,8
+4,10
+INFO time_left 18918
+TURN 4,9
+6,11
+INFO time_left 18726
+TURN 6,12
+8,12
+INFO time_left 18535
+TURN 9,13
+9,11
+INFO time_left 18349
+TURN 11,9
+6,8
+INFO time_left 18154
+TURN 3,11
+8,10
+INFO time_left 17964
+TURN 7,9
+8,11
+INFO time_left 17775
+TURN 8,8
+8,13
+INFO time_left 17540
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 30000
+INFO timeout_turn 30000
+INFO game_type 0
+INFO rule 1
+INFO time_left 30000
+SWAP2BOARD
+DONE
+7,7 10,7 12,7
+BOARD
+7,7,2
+12,7,1
+10,4,2
+DONE
+8,6
+INFO time_left 23890
+TURN 7,5
+7,6
+INFO time_left 21841
+TURN 6,6
+6,7
+INFO time_left 20258
+TURN 8,4
+9,3
+INFO time_left 19785
+TURN 5,5
+4,4
+INFO time_left 19597
+TURN 6,5
+8,5
+INFO time_left 19070
+TURN 9,4
+7,4
+INFO time_left 18543
+TURN 5,7
+4,8
+INFO time_left 18273
+TURN 5,8
+5,6
+INFO time_left 17670
+TURN 4,5
+3,5
+INFO time_left 17480
+TURN 6,3
+2,6
+INFO time_left 16820
+TURN 5,3
+1,7
+INFO time_left 15998
+TURN 0,8
+3,7
+INFO time_left 15579
+TURN 1,5
+3,6
+INFO time_left 15113
+TURN 3,4
+4,6
+INFO time_left 14817
+TURN 1,6
+3,9
+INFO time_left 14611
+TURN 3,8
+4,9
+INFO time_left 14325
+TURN 12,0
+5,9
+INFO time_left 14140
+TURN 10,0
+6,10
+INFO time_left 13961
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 30000
+INFO timeout_turn 30000
+INFO game_type 0
+INFO rule 1
+INFO time_left 30000
+BOARD
+5,13,2
+13,5,1
+9,13,2
+DONE
+8,10
+INFO time_left 25591
+TURN 5,11
+4,11
+INFO time_left 22469
+TURN 7,11
+6,10
+INFO time_left 19705
+TURN 7,10
+7,12
+INFO time_left 19066
+TURN 8,11
+9,11
+INFO time_left 18330
+TURN 6,9
+5,8
+INFO time_left 17760
+TURN 8,9
+7,9
+INFO time_left 17075
+TURN 10,12
+4,8
+INFO time_left 16578
+TURN 6,8
+4,9
+INFO time_left 16369
+TURN 4,10
+3,10
+INFO time_left 16164
+TURN 6,7
+1,8
+INFO time_left 15955
+TURN 5,12
+2,9
+INFO time_left 15759
+TURN 0,7
+2,8
+INFO time_left 15575
+TURN 3,8
+2,11
+INFO time_left 15391
+TURN 1,12
+2,10
+INFO time_left 15158
+TURN 2,12
+2,7
+INFO time_left 14974
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 30000
+INFO timeout_turn 30000
+INFO game_type 0
+INFO rule 1
+INFO time_left 30000
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 30000
+INFO timeout_turn 30000
+INFO game_type 0
+INFO rule 1
+INFO time_left 30000
+END
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+BOARD
+1,12,1
+2,13,2
+6,13,1
+4,10,2
+DONE
+4,9
+INFO time_left 51480
+TURN 3,10
+5,10
+INFO time_left 49982
+TURN 6,11
+3,11
+INFO time_left 46726
+TURN 6,9
+8,8
+INFO time_left 41683
+TURN 8,11
+7,10
+INFO time_left 39393
+TURN 9,10
+7,11
+INFO time_left 38177
+TURN 7,9
+10,9
+INFO time_left 33299
+TURN 10,8
+6,8
+INFO time_left 31638
+TURN 7,8
+5,9
+INFO time_left 29884
+TURN 5,8
+8,12
+INFO time_left 28262
+TURN 6,10
+5,13
+INFO time_left 27636
+TURN 4,12
+6,12
+INFO time_left 27435
+TURN 8,10
+7,12
+INFO time_left 27242
+TURN 12,0
+5,12
+INFO time_left 27039
+TURN 13,0
+9,12
+INFO time_left 26846
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+BOARD
+5,2,2
+3,3,1
+1,3,2
+DONE
+4,5
+INFO time_left 54814
+TURN 3,5
+5,4
+INFO time_left 52815
+TURN 6,3
+5,6
+INFO time_left 50036
+TURN 5,5
+3,4
+INFO time_left 49727
+TURN 6,7
+4,4
+INFO time_left 49537
+TURN 2,4
+4,6
+INFO time_left 49339
+TURN 4,7
+4,3
+INFO time_left 49152
+TURN 4,2
+7,6
+INFO time_left 48964
+TURN 6,6
+6,5
+INFO time_left 48784
+TURN 8,7
+3,2
+INFO time_left 48600
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+BOARD
+3,9,1
+1,10,2
+1,14,1
+5,9,2
+DONE
+4,10
+INFO time_left 51151
+TURN 5,11
+5,8
+INFO time_left 48185
+TURN 4,8
+3,7
+INFO time_left 45455
+TURN 3,8
+4,6
+INFO time_left 43720
+TURN 2,8
+5,6
+INFO time_left 43082
+TURN 6,6
+5,4
+INFO time_left 41848
+TURN 5,5
+4,4
+INFO time_left 41021
+TURN 3,4
+4,3
+INFO time_left 40319
+TURN 4,5
+6,5
+INFO time_left 39894
+TURN 7,6
+4,2
+INFO time_left 39378
+TURN 3,2
+7,4
+INFO time_left 39163
+TURN 8,3
+5,3
+INFO time_left 38965
+TURN 6,4
+6,3
+INFO time_left 38775
+TURN 3,3
+4,1
+INFO time_left 38587
+TURN 4,0
+5,2
+INFO time_left 38403
+TURN 8,5
+3,0
+INFO time_left 38216
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+BOARD
+7,6,1
+5,10,2
+5,11,1
+4,9,2
+DONE
+3,8
+INFO time_left 52567
+TURN 7,9
+4,10
+INFO time_left 50631
+TURN 3,9
+6,7
+INFO time_left 44453
+TURN 7,12
+6,8
+INFO time_left 43058
+TURN 6,11
+8,13
+INFO time_left 42870
+TURN 5,9
+6,9
+INFO time_left 42681
+TURN 6,6
+7,10
+INFO time_left 41217
+TURN 5,8
+5,7
+INFO time_left 39952
+TURN 7,7
+4,5
+INFO time_left 37852
+TURN 3,5
+4,4
+INFO time_left 36616
+TURN 4,3
+10,11
+INFO time_left 35248
+TURN 9,12
+10,10
+INFO time_left 34517
+TURN 10,9
+8,12
+INFO time_left 32661
+TURN 8,11
+9,10
+INFO time_left 32042
+TURN 8,10
+8,9
+INFO time_left 31727
+TURN 7,8
+11,11
+INFO time_left 31525
+TURN 11,12
+9,11
+INFO time_left 31333
+TURN 11,9
+7,13
+INFO time_left 31124
+TURN 6,14
+9,13
+INFO time_left 30936
+TURN 10,13
+12,10
+INFO time_left 30736
+TURN 10,12
+12,12
+INFO time_left 30550
+TURN 14,13
+9,9
+INFO time_left 30346
+TURN 13,11
+13,13
+INFO time_left 30159
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+BOARD
+3,9,1
+1,10,2
+1,14,1
+5,9,2
+DONE
+4,10
+INFO time_left 51019
+TURN 5,11
+5,8
+INFO time_left 48015
+TURN 4,8
+3,7
+INFO time_left 45517
+TURN 3,8
+4,6
+INFO time_left 43827
+TURN 5,5
+4,7
+INFO time_left 40522
+TURN 5,7
+3,6
+INFO time_left 39234
+TURN 2,5
+4,5
+INFO time_left 38428
+TURN 2,6
+3,4
+INFO time_left 37756
+TURN 4,4
+2,7
+INFO time_left 37070
+TURN 5,4
+1,7
+INFO time_left 36447
+TURN 0,7
+3,3
+INFO time_left 35420
+TURN 3,5
+5,3
+INFO time_left 34729
+TURN 2,3
+7,6
+INFO time_left 33661
+TURN 6,7
+6,6
+INFO time_left 32990
+TURN 5,6
+8,6
+INFO time_left 31576
+TURN 8,5
+7,8
+INFO time_left 31272
+TURN 8,7
+7,7
+INFO time_left 31058
+TURN 7,5
+7,10
+INFO time_left 30864
+TURN 7,9
+6,9
+INFO time_left 30670
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+BOARD
+7,5,1
+5,9,2
+5,10,1
+4,8,2
+DONE
+6,10
+INFO time_left 51009
+TURN 7,10
+6,9
+INFO time_left 48301
+TURN 7,8
+8,8
+INFO time_left 47462
+TURN 6,8
+7,7
+INFO time_left 46412
+TURN 9,7
+6,11
+INFO time_left 43615
+TURN 6,12
+9,9
+INFO time_left 42880
+TURN 10,10
+5,5
+INFO time_left 42339
+TURN 6,6
+6,5
+INFO time_left 41876
+TURN 8,5
+5,4
+INFO time_left 41611
+TURN 7,6
+4,5
+INFO time_left 41423
+TURN 3,5
+3,8
+INFO time_left 41239
+TURN 4,9
+5,6
+INFO time_left 41042
+TURN 13,13
+5,3
+INFO time_left 40850
+TURN 13,8
+5,7
+INFO time_left 40666
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+BOARD
+1,14,2
+1,10,1
+3,9,2
+DONE
+4,10
+INFO time_left 52841
+TURN 4,11
+3,10
+INFO time_left 49621
+TURN 2,10
+4,8
+INFO time_left 47764
+TURN 5,8
+7,9
+INFO time_left 46204
+TURN 7,8
+6,9
+INFO time_left 41518
+TURN 8,9
+6,7
+INFO time_left 40810
+TURN 6,8
+8,8
+INFO time_left 40089
+TURN 9,7
+4,6
+INFO time_left 38935
+TURN 6,11
+4,7
+INFO time_left 38634
+TURN 4,9
+3,7
+INFO time_left 38451
+TURN 5,7
+5,5
+INFO time_left 38260
+TURN 2,8
+4,5
+INFO time_left 38066
+TURN 4,4
+3,5
+INFO time_left 37886
+TURN 6,5
+1,5
+INFO time_left 37700
+TURN 2,5
+2,6
+INFO time_left 37507
+TURN 5,9
+0,4
+INFO time_left 37327
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 0
+INFO rule 1
+INFO time_left 60000
+BOARD
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 30000
+INFO timeout_turn 30000
+INFO game_type 0
+INFO rule 1
+INFO time_left 30000
+BOARD
+7,10,1
+3,9,2
+12,12,1
+6,9,2
+DONE
+4,10
+INFO time_left 23610
+TURN 4,8
+5,9
+INFO time_left 22560
+TURN 5,7
+6,6
+INFO time_left 21963
+TURN 6,8
+7,8
+INFO time_left 20656
+TURN 7,9
+4,6
+INFO time_left 19997
+TURN 8,10
+9,11
+INFO time_left 19798
+TURN 6,10
+6,11
+INFO time_left 19359
+TURN 8,8
+5,11
+INFO time_left 18561
+TURN 8,9
+8,7
+INFO time_left 17635
+TURN 9,7
+10,6
+INFO time_left 17429
+TURN 2,10
+1,11
+INFO time_left 17243
+TURN 9,9
+10,9
+INFO time_left 17050
+TURN 10,8
+11,7
+INFO time_left 16459
+TURN 8,6
+11,9
+INFO time_left 15560
+TURN 9,8
+9,5
+INFO time_left 15225
+TURN 9,6
+9,10
+INFO time_left 15029
+TURN 7,11
+6,12
+INFO time_left 14848
+TURN 8,11
+8,12
+INFO time_left 14658
+______Process started______
+OK
+INFO max_memory 1073741824
+INFO timeout_match 30000
+INFO timeout_turn 30000
+INFO game_type 0
+INFO rule 1
+INFO time_left 30000
+END

@@ -241,7 +241,7 @@ def main():
             a = clock()
             try:
                 try:
-                    v, b = pyautogui.locateCenterOnScreen('PO\\wht.png', confidence=0.8)
+                    v, b = pyautogui.locateCenterOnScreen('PO\\wht.png', confidence=0.7)
                 except:
                     continue
                 k = (v, b)

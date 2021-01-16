@@ -28,11 +28,11 @@ def process(func, arr):
 def get_opening():
     coord_b = []
     coord_w = []
-    for pos in pyautogui.locateAllOnScreen('PO\\black.png', confidence=0.9):
+    for pos in pyautogui.locateAllOnScreen('PO\\black.png', confidence=0.7):
         position = (pos[0] + pos[2] // 2, pos[1] + pos[3] // 2)
         coord_b.append(position)
 
-    for pos in pyautogui.locateAllOnScreen('PO\\white.png', confidence=0.9):
+    for pos in pyautogui.locateAllOnScreen('PO\\white.png', confidence=0.7):
         position = (pos[0] + pos[2] // 2, pos[1] + pos[3] // 2)
         coord_w.append(position)
     def t1(coord_w):
@@ -49,7 +49,7 @@ def get_opening():
         x,y = pyautogui.locateCenterOnScreen('PO\\ccc.png', confidence=0.7)
         coord_b.append((x, y))
     except:
-        x, y = pyautogui.locateCenterOnScreen('PO\\wht.png', confidence=0.8)
+        x, y = pyautogui.locateCenterOnScreen('PO\\wht.png', confidence=0.7)
         coord_w.append((x, y))
     return coord_b, coord_w
 
