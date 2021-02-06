@@ -1,18 +1,17 @@
-import subprocess
 import os
-from license import chk_license
+import subprocess
 
-os.system('title Gomobot v0.9')
-##print('Check License:')
-##lic = chk_license()
-##if lic == 'Wrong key!!!' or lic == 'No License!':
-##    exit()
+os.system('title Gomobot v1.0')
 
 f = open('Log.txt', 'a')
 
 
-engine = subprocess.Popen('Engine\engine.exe', universal_newlines=True,
-                          stdin=subprocess.PIPE, stdout=subprocess.PIPE, bufsize=1)
+# noinspection PyGlobalUndefined
+def init(engines):
+    global engine
+    engine = subprocess.Popen('Engine\\' + engines + '.exe', universal_newlines=True,
+                              stdin=subprocess.PIPE, stdout=subprocess.PIPE, bufsize=1)
+
 
 def put(command):
     engine.stdin.write(command + '\n')
@@ -25,7 +24,6 @@ def check():
         text = engine.stdout.readline().strip()
         if text == 'OK':
             f.write(text + '\n')
-            ##            print('Text:',text)
             break
 
 
@@ -41,15 +39,12 @@ def get():
             return text
 
 
-##        if text !='':
-##            print(text)
-##            time.sleep(0.5)
-##            break
 def timematch(b=None):
     """
     Setup time.
     :return:
     """
+    global a
     if b is None:
         tm = input('Time match: ')
         a = int(tm) * 1000
@@ -59,21 +54,21 @@ def timematch(b=None):
         b = str(b)
     f.writelines('______Process started______\n')
     check()
-    ##put('INFO max_memory 2146435072')
-    put('INFO max_memory 1073741824')
+    put('INFO max_memory 0')
+    put('INFO MAX_THREAD_NUM 8')
     put('INFO timeout_match ' + b)
     put('INFO timeout_turn ' + b)
-    put('INFO game_type 0')
+    put('INFO game_type 1')
     put('INFO rule 1')
     put('INFO time_left ' + b)
     return a
 
 
-a = timematch()
+# a = timematch()
 
 
-def tinput():
-    return a
+# def tinput():
+#     return a
 
 
 def begin():
@@ -93,11 +88,13 @@ def playw(inp):
     :return:
     """
     put('TURN ' + inp)
-##    a = getms()
-##    if 'MESSAGE' not in a:
-##        return a, 0
-##    ev = a.split(' ')[4]
-    return str(get())
+    output = str(get())
+    #    put('PONDER')
+    #    a = getms()
+    #    if 'MESSAGE' not in a:
+    #        return a, 0
+    #    ev = a.split(' ')[4]
+    return output
 
 
 def playb(inp):
@@ -107,11 +104,13 @@ def playb(inp):
     :return:
     """
     put('TURN ' + inp)
-##    a = getms()
-##    if 'MESSAGE' not in a:
-##        return a, 0
-##    ev = a.split(' ')[4]
-    return str(get())
+    output = str(get())
+    #    put('PONDER')
+    #    a = getms()
+    #    if 'MESSAGE' not in a:
+    #        return a, 0
+    #    ev = a.split(' ')[4]
+    return output
 
 
 def timeleft(a):
@@ -140,6 +139,7 @@ def debug():
         except:
             pass
 
+
 def spswap():
     while True:
         try:
@@ -150,5 +150,28 @@ def spswap():
         except:
             pass
 
+
 def close():
     f.close()
+
+
+def ea():
+    put('ABOUT')
+    about = get().split(', ')
+    name = ''
+    version = ''
+    author = ''
+    country = ''
+    email = ''
+    for i in about:
+        if 'name' in i:
+            name = i.split('"')[1]
+        elif 'version' in i:
+            version = i.split('"')[1]
+        elif 'author' in i:
+            author = i.split('"')[1]
+        elif 'country' in i:
+            country = i.split('"')[1]
+        elif 'email' in i:
+            email = i.split('"')[1]
+    return name, version, author, country, email
