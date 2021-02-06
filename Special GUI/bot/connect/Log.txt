@@ -1,0 +1,14 @@
+ABOUT
+name="AlphaGomoku", version="4.0", author="Maciej Kozarzewski", country="Poland", www="https://github.com/MaciejKozarzewski/AlphaGomoku", email="alphagomoku.mk@gmail.com"
+ABOUT
+name="AlphaGomoku", version="4.0", author="Maciej Kozarzewski", country="Poland", www="https://github.com/MaciejKozarzewski/AlphaGomoku", email="alphagomoku.mk@gmail.com"
+ABOUT
+name="AlphaGomoku", version="4.0", author="Maciej Kozarzewski", country="Poland", www="https://github.com/MaciejKozarzewski/AlphaGomoku", email="alphagomoku.mk@gmail.com"
+ABOUT
+name="AlphaGomoku", version="4.0", author="Maciej Kozarzewski", country="Poland", www="https://github.com/MaciejKozarzewski/AlphaGomoku", email="alphagomoku.mk@gmail.com"
+ABOUT
+name="AlphaGomoku", version="4.0", author="Maciej Kozarzewski", country="Poland", www="https://github.com/MaciejKozarzewski/AlphaGomoku", email="alphagomoku.mk@gmail.com"
+ABOUT
+name="AlphaGomoku", version="4.0", author="Maciej Kozarzewski", country="Poland", www="https://github.com/MaciejKozarzewski/AlphaGomoku", email="alphagomoku.mk@gmail.com"
+ABOUT
+name="AlphaGomoku", version="4.0", author="Maciej Kozarzewski", country="Poland", www="https://github.com/MaciejKozarzewski/AlphaGomoku", email="alphagomoku.mk@gmail.com"
